@@ -1,0 +1,38 @@
+/*-----------------------------IE6动态计算浮动位置-------------------------------------*/
+max-width:
+对于ie6我们可以使用如下css代码
+
+/*可用于块级元素的最大宽度*/
+
+#maxImgBox{width: expression(this.offsetWidth > 700 ? '700px': true); max-width: 700px; }
+
+/*可用于可直接取到width的元素如img*/
+
+#maxWidthImg{width: expression(this.width > 200 ? '200px': true); max-width: 200px; }
+
+/*从根节点取值*/
+
+#maxWidthDiv{width: expression((documentElement.clientWidth < 580) ? '580px' : 'auto' ); max-width: 580px; }
+
+min-height: 500px; height: e?xpression_r_r_r(document.body.clientHeight < 500? "500px": "auto" );
+2
+
+通过jQuery解决IE6不支持max-height
+$(".entry").each(function(){ if($(this)[0].scrollHeight>500) $(this).css({"height":"500px"}); })
+
+/*----------------------------IE7 li 上下多3像素 ------------------------------*/
+会发现在IE6–7下，LI底部会多出几个像素，网上很多人说这是li的3pxbug，实际不然。底部的空隙和字体大小和高度有关。并不一定是3px。
+
+出现这个bug的条件如下
+必要条件：
+li的子元素设置了浮动（例如：本例中的span设置了左浮动）
+
+充要条件：
+(IE6/7)li设置了width、height、zoom 之一 （例如：本文中的li设置了width）
+
+解决方案也很简单：
+
+1、别让li获得layout
+2、设置li {vertical-align：middle} （推荐这种方法，简单方便）
+3、设置li {font-size:0} li span{font-size:12px}。
+4、设置li{float:left;width:100%}

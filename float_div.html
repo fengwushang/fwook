@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>jq</title>
+    <link rel="stylesheet" type="text/css" href="reset.css"/>
+</head>
+
+<body>
+
+<script type="text/javascript" src="jquery-1.7.2.min.js"></script>
+<script type="text/javascript">
+    (function($) {
+        $.fn.scrollFix = function(options) {
+            var opts = $.extend({}, $.fn.scrollFix.defaults, options);
+            return this.each(function(){
+                $this=$(this);
+                var leftPx;
+                var topPx;
+                if(opts.relativeLeftId)
+                {
+                    leftPx=document.getElementById(opts.relativeLeftId).offsetLeft+opts.templeftPx;
+                }else{leftPx=opts.templeftPx;}
+                if(opts.relativeTopId)
+                {
+                    topPx=document.getElementById(opts.relativeTopId).offsetTop+$("#"+opts.relativeTopId).outerHeight()+opts.tempTopPx;
+                }else{topPx=opts.tempTopPx;}
+                $this.css("left",leftPx);
+                $this.css("top",topPx);
+                window.onscroll = function()
+                {
+                    var $scrollTop = $(window).scrollTop();
+                    if(jQuery.browser.msie&&jQuery.browser.version==6)
+                    {
+                        if($scrollTop>topPx && $scrollTop<topPx+opts.maxTempHeight)
+                        {
+                            $this.css("top",document.documentElement.scrollTop);
+                        }else
+                        {
+                            $this.css("top",topPx);
+                        }
+                    }else
+                    {
+                        if($scrollTop>topPx && $scrollTop<topPx+opts.maxTempHeight)
+                        {
+
+                            $this.css("top","");
+                            $this.addClass(opts.fixedClass);
+
+                        }
+                        else{
+                            if($this.hasClass(opts.fixedClass))
+                            {
+                                $this.css("top",topPx);
+                                $this.removeClass(opts.fixedClass).addClass(opts.ie6Class);
+                            }
+                        }
+
+                    }
+                }
+            });
+        };
+        $.fn.scrollFix.defaults = {
+            relativeLeftId:'',//必填,X参照物ID
+            relativeTopId:'',//必填,Y参照物ID
+            templeftPx:0,//相对X偏移位置
+            tempTopPx:0,//相对Y偏移位置
+            maxTempHeight:13000,//滚动最大高度值
+            fixedClass:'fixedTop',//必填，固定样式
+            ie6Class:'userPanel'//必填,ie6处理原始样式
+        };
+    })(jQuery);
+
+    /*
+            $('div.side').scroll(function () {
+                var th = $('div.side_open'), topPx = 100;
+
+                var $scrollTop = $(this).scrollTop();
+                    
+                if (jQuery.browser.msie && jQuery.browser.version == 6) {
+                    if ($scrollTop >= 0 ) {
+                        th.css({"top": $scrollTop, "height":700});
+                    } else {
+                        alert("in else");
+                        th.css("top", topPx);
+                    }
+                } else {
+                    if ($scrollTop > 0 && $scrollTop < topPx + 130000) {
+                        th.css("top", "");
+                        th.addClass("side_open");
+                    }
+                    else {
+                        if (th.hasClass("side_open")) {
+                            th.css("top", topPx);
+                            th.removeClass("side_open").addClass("side_base");
+                        }
+                    }
+                }                
+            });
+    */
+</script>
+<script type="text/javascript">
+    $(function(){
+        $("#userPanel").scrollFix({relativeLeftId:'relativeObj',relativeTopId:'relativeObj', templeftPx:20, tempTopPx:60});
+    });
+</script>
+<style type="text/css">
+    body{font-size:12px;}
+    .userPanel{border:1px solid #D1D1D2; width:296px; height:184px;background-color:#FFFFFF; overflow:hidden;position:absolute;}
+    .shareList li{float:left; width:148px; height:46px;}
+
+
+    .fixedTop /* 头部固定 */{position:fixed;top:0px;}
+    * html,* html body /* 修正IE6振动bug */{background-attachment:fixed;}
+    * html .fixedTop /* IE6 头部固定 */{position:absolute;top:expression(eval(document.documentElement.scrollTop));}
+</style>
+
+<table class="paramTable">
+    <caption>jq_scrollFix滚动定位插件</caption>
+    <tr>
+        <th>参数名</th>
+        <th>参数说明</th>
+    </tr>
+    <tr>
+        <td class="red">relativeLeftId</td>
+        <td>必填,X参照物ID,默认''</td>
+    </tr>
+    <tr>
+        <td class="red">relativeTopId</td>
+        <td>/必填,Y参照物ID,默认''</td>
+    </tr>
+    <tr>
+        <td class="red">tempLeftPx</td>
+        <td>相对X偏移位置补差值,默认0</td>
+    </tr>
+    <tr>
+        <td class="red">tempTopPx</td>
+        <td>相对Y偏移位置补差值,默认0</td>
+    </tr>
+    <tr>
+        <td class="red">maxTempHeight</td>
+        <td>滚动最大高度值,默认13000</td>
+    </tr>
+    <tr>
+        <td class="red">fixedClass</td>
+        <td>必填，固定样式,默认fixedTop</td>
+    </tr>
+    <tr>
+        <td class="red">ie6Class</td>
+        <td>必填,ie6处理原始样式,默认userPanel</td>
+    </tr>
+</table>
+    <div class="content" id="relativeObj">
+        我又是X轴的参照物，又是Y轴的参照物
+    </div>
+
+<div class="userPanel" id="userPanel">
+    <ul class="shareList">
+        <li>导航内容</li>
+    </ul>
+</div>
+<div style="height:10000px;"></div>
+
+
+</body>
+</html>
