@@ -1,0 +1,2883 @@
+
+a {
+    color: #2B2B2B;
+}
+body {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+.black {
+    color: #000000;
+}
+.clear {
+    clear: both;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    margin: 0 auto;
+}
+.LightGrey01, .LightGrey01 a {
+    color: #2B2B2B;
+}
+.LightGrey02, .LightGrey02 a {
+    color: #666666;
+}
+.LightGrey03, .LightGrey03 a {
+    color: #999999;
+}
+.LightGrey04, .LightGrey04 a {
+    color: #D9D9D9;
+}
+.LightGrey05, .LightGrey05 a {
+    color: #E7E7E7;
+}
+.white, .white a {
+    color: #FFFFFF;
+}
+.LightWhite, .LightWhite a {
+    color: #F3F3F3;
+}
+.red, .red a {
+    color: #BA2636;
+}
+.Ared {
+    color: #D5000D;
+}
+.Agreen {
+    color: #009634;
+}
+.LightBlue01, .LightBlue01 a, .LightBlue03, .LightBlue03 a {
+    color: #004276;
+}
+.LightBlue02, .LightBlue02 a {
+    color: #007BBB;
+}
+.fz11 {
+    color: #666666;
+    font: 11px Arial;
+}
+.fz12 {
+    font-size: 12px;
+}
+.fz14 {
+    font-size: 14px;
+}
+.fz16 {
+    font-size: 16px;
+}
+.fz18 {
+    font-family: "黑体";
+    font-size: 18px;
+}
+.fz20 {
+    font-family: "黑体";
+    font-size: 20px;
+    padding: 2px 0 0;
+}
+.line18, .line18 a {
+    line-height: 18px;
+}
+.line20, .line20 a {
+    line-height: 20px;
+}
+.line22, .line22 a {
+    line-height: 22px;
+}
+.line24, .line24 a {
+    line-height: 18px;
+}
+.bol {
+    font-weight: bold;
+}
+.bolNo {
+    font-weight: normal;
+}
+.lineul18 li, .lineul18 li a {
+    line-height: 18px;
+}
+.space, .space0, .space1, .space2, .space3, .space01, .space02, space03, .space04 {
+    clear: both;
+    font-size: 1px;
+    height: 10px;
+    line-height: 1px;
+    margin: 0 auto;
+}
+.space {
+    border: medium none;
+    width: 1000px;
+}
+.space01 {
+    border: medium none;
+    float: left;
+    height: 17px;
+    width: 1000px;
+}
+.space02 {
+    border: medium none;
+    height: 7px;
+    width: 1000px;
+}
+.space03 {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/icon_01.gif") repeat-x scroll 0 0 transparent;
+    float: left;
+    height: 1px;
+    margin: 13px 0 6px;
+    overflow: hidden;
+    width: 396px;
+}
+.space04 {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/icon_01.gif") repeat-x scroll 0 0 transparent;
+    float: left;
+    height: 1px;
+    margin: 0 0 6px;
+    width: 396px;
+}
+.space0 {
+    float: left;
+    width: 396px;
+}
+.space1 {
+    float: left;
+    width: 213px;
+}
+.space2 {
+    float: left;
+    width: 315px;
+}
+.space3 {
+    float: left;
+    width: 665px;
+}
+.main {
+    margin: 20px auto;
+    width: 1000px;
+}
+.main .mainLeft, .main .mainLeft .mainLM {
+    float: left;
+    overflow: hidden;
+    width: 665px;
+}
+.main .mainLeft .mainLM {
+}
+.main .mainLeft .mainLML {
+    float: left;
+    overflow: hidden;
+    width: 396px;
+}
+.main .mainLeft .mainLMR {
+    float: left;
+    padding: 0 23px 0 33px;
+    width: 213px;
+}
+.main .mainRight {
+    float: left;
+    overflow: hidden;
+    width: 335px;
+}
+.main .mainRight .mainRList {
+    float: left;
+    padding: 10px;
+    width: 315px;
+}
+.back {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/icon_02.gif") repeat-y scroll 0 0 transparent;
+}
+.xian {
+    border-bottom: 1px solid #D9D9D9;
+}
+.mainLM .more, .mainLML .more, .mainLML .more, .mainMRList .more {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/icon01_07.gif") no-repeat scroll 30px 11px transparent;
+    border-top: 1px solid #D9D9D9;
+    float: left;
+    line-height: 18px;
+    padding: 4px 0 13px;
+    width: 665px;
+}
+.mainLML .more {
+    width: 396px;
+}
+.mainLMR .more {
+    width: 213px;
+}
+.mainMRList .more {
+    width: 315px;
+}
+.bord {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #D9D9D9;
+}
+.ad1000top {
+    background: none repeat scroll 0 0 #FFFFFF;
+    margin: auto;
+    text-align: center;
+    width: 1000px;
+}
+.ad1000 {
+    background: none repeat scroll 0 0 #FFFFFF;
+    margin: 10px auto;
+    text-align: center;
+    width: 1000px;
+}
+.ad1000x17 {
+    background: none repeat scroll 0 0 #F0F0F0;
+    margin: 10px auto 17px;
+    padding: 0 25px;
+    width: 950px;
+}
+.ad396 {
+    float: left;
+    margin: 0 0 7px;
+    width: 396px;
+}
+.ad396 img {
+    width: 396px;
+}
+.ad213 {
+    float: left;
+    padding: 10px 0;
+    width: 213px;
+}
+.ad213 img {
+    border: 1px solid #D9D9D9;
+    width: 211px;
+}
+.ad315 {
+    float: left;
+    margin: 0 0 10px;
+    padding: 15px 13px 15px 15px;
+    width: 285px;
+}
+.ad315 img {
+    border: 1px solid #D9D9D9;
+    height: 236px;
+    width: 283px;
+}
+.ad315x115 {
+    float: left;
+    margin: 0 0 10px;
+    padding: 15px 13px 15px 15px;
+    width: 285px;
+}
+.ad315x115 img {
+    border: 1px solid #D9D9D9;
+    height: 115px;
+    width: 283px;
+}
+.ad300 {
+    float: left;
+    margin: 0;
+    padding: 7px 7px 7px 6px;
+    width: 300px;
+}
+.ad300 img {
+    height: 250px;
+    width: 300px;
+}
+.ad300x100 {
+    float: left;
+    margin: 0 0 10px;
+    padding: 7px 7px 7px 6px;
+    width: 300px;
+}
+.ad300x100 img {
+    height: 100px;
+    width: 300px;
+}
+.ad300x600 {
+    float: left;
+    margin: 0 0 10px;
+    padding: 7px 7px 7px 6px;
+    width: 300px;
+}
+.ad300x600 img {
+    height: 600px;
+    width: 300px;
+}
+.ad665 {
+    float: left;
+    height: 90px;
+    margin-bottom: 17px;
+    margin-right: 23px;
+    width: 642px;
+}
+.ad665 img {
+    border: 1px solid #D9D9D9;
+    height: 87px;
+    width: 640px;
+}
+.titleMain {
+    border-top: 10px solid #A6D0E2;
+    float: left;
+    font-size: 16px;
+    height: 35px;
+    line-height: 20px;
+    margin: 0 23px 0 0;
+    padding: 5px 0 0;
+    width: 642px;
+}
+.titleClass {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/icon_92.gif") no-repeat scroll center top #FFFFFF;
+    margin: 0 auto;
+    padding: 10px 0 0;
+    width: 1000px;
+}
+.titleClass h4 {
+    float: left;
+    font-size: 14px;
+    height: 33px;
+    padding: 0 0 0 5px;
+    width: 70px;
+}
+.titleClass .titleList {
+    border: 1px solid #D9D9D9;
+    float: left;
+    width: 998px;
+}
+.titleClass .titleList .title {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/zxicon_27.gif") repeat-x scroll 0 0 transparent;
+    height: 32px;
+    width: 998px;
+}
+.titleClass .titleList .title li {
+    border-right: 1px solid #D9D9D9;
+    cursor: pointer;
+    float: left;
+    height: 23px;
+    line-height: 18px;
+    padding: 9px 0 0;
+    text-align: center;
+    width: 170px;
+}
+.titleClass .titleList .title .current {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+.titleClass .titleList .classMain {
+    float: left;
+    width: 998px;
+}
+.mainList01 .more, .mainList02 .more, .mainList03 .more {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/icon01_07.gif") no-repeat scroll 40px 12px transparent;
+    border-top: 1px solid #D9D9D9;
+    float: left;
+    height: 17px;
+    line-height: 18px;
+    padding: 4px 0 10px 10px;
+    text-align: left;
+    width: 988px;
+}
+.titleClass .titleList .classMain .mainList01 {
+    float: left;
+    width: 998px;
+}
+.titleClass .titleList .classMain .mainList01 .listA {
+    float: right;
+    width: 920px;
+}
+.titleClass .titleList .classMain .mainList01 .listA .ls01 {
+    padding: 33px 0 22px;
+}
+.titleClass .titleList .classMain .mainList01 .listA .ls01 h3 {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/icon_01.gif") repeat-x scroll center bottom transparent;
+    float: left;
+    font-weight: normal;
+    line-height: 18px;
+    padding: 2px 0 5px;
+    width: 165px;
+}
+.titleClass .titleList .classMain .mainList01 .listA .ls01 h4 {
+    color: #666666;
+    float: left;
+    line-height: 18px;
+    padding: 2px 0;
+    width: 165px;
+}
+.titleClass .titleList .classMain .mainList01 .listA .ls01 p {
+    float: left;
+    line-height: 18px;
+    width: 165px;
+}
+.titleClass .titleList .classMain .mainList01 .listA .ls02 {
+    padding: 33px 0 22px;
+}
+.titleClass .titleList .classMain .mainList01 .listA .ls02 h3 {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/icon_01.gif") repeat-x scroll center bottom transparent;
+    float: left;
+    font-weight: normal;
+    line-height: 18px;
+    padding: 2px 0 5px;
+    width: 115px;
+}
+.titleClass .titleList .classMain .mainList01 .listA .ls02 h4 {
+    color: #666666;
+    float: left;
+    line-height: 18px;
+    padding: 2px 0;
+    width: 115px;
+}
+.titleClass .titleList .classMain .mainList01 .listA .ls02 p {
+    float: left;
+    line-height: 18px;
+    width: 115px;
+}
+.sysNW {
+    float: left;
+    padding-left: 2px;
+    width: 394px;
+}
+.sysNews {
+}
+.sysNews h3 {
+    color: #004276;
+    font-weight: normal;
+    line-height: 22px;
+}
+.sysNews h3 a {
+    color: #004276;
+}
+.sysNews .sysNewsList {
+}
+.sysNews .sysNewsList .Function {
+    margin: 0;
+}
+* + html.sysNews .sysNewsList .Function {
+    margin: 0;
+}
+.sysNews .sysNewsList01 .newsPic {
+    float: left;
+    margin: 2px 17px 0 0;
+    width: 125px;
+}
+.sysNews .sysNewsList01 .newsPic img {
+    border: 1px solid #D9D9D9;
+    height: 63px;
+    width: 123px;
+}
+.sysNews .sysNewsList01 .Function {
+    float: left;
+    width: 252px;
+}
+.sysNews .sysNewsList01 .news {
+    float: left;
+    width: 230px;
+}
+.sysNews .Function .sys_time, .sysNews .Function .sys_message, .sysNews .Function .sys_survey, .sysNews .Function .sys_pk, .sysNews .Function .sys_video, .sysNews .Function .sys_pic, .sysNews .Function .sys_Audio {
+    float: left;
+    height: 13px;
+    margin: 1px 2px 2px 0;
+}
+.sysNews .Function .sys_time a, .sysNews .Function .sys_survey a, .sysNews .Function .sys_pk a, .sysNews .Function .sys_video a, .sysNews .Function .sys_pic a, .sysNews .Function .sys_Audio a {
+    float: left;
+    height: 13px;
+    width: 18px;
+}
+.sysNews .Function .sys_time {
+    color: #666666;
+    line-height: 12px;
+    padding: 0 0 0 3px;
+}
+.sysNews .Function .sys_message a {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_v5/icon_06.gif") no-repeat scroll 0 1px transparent;
+    color: #666666;
+    float: left;
+    height: 13px;
+    padding: 0 0 0 18px;
+}
+.sysNews .Function .sys_survey a {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_v5/icon_06.gif") no-repeat scroll 0 -80px transparent;
+}
+.sysNews .Function .sys_pk a {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_v5/icon_06.gif") no-repeat scroll 0 -51px transparent;
+}
+.sysNews .Function .sys_video a {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_v5/icon_06.gif") no-repeat scroll -1px -12px transparent;
+}
+.sysNews .Function .sys_pic a {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_v5/icon_06.gif") no-repeat scroll 0 -26px transparent;
+}
+.sysNews .Function .sys_Audio a {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_v5/icon_06.gif") no-repeat scroll 0 -64px transparent;
+}
+.sysNews .sysNewsList h4 {
+    color: #004276;
+}
+.sysNews .sysNewsList h4 a {
+    color: #004276;
+}
+.photoN {
+    float: left;
+    margin: 13px 0 17px;
+    padding: 10px;
+    width: 191px;
+}
+.photoN img {
+    float: left;
+    height: 321px;
+    width: 191px;
+}
+.photoN h4 {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/icon_03.gif") no-repeat scroll 0 11px transparent;
+    float: left;
+    padding: 4px 0 0 5px;
+    width: 185px;
+}
+.MPicNW {
+    float: left;
+    width: 213px;
+}
+.MPicNews {
+}
+.MPicNews h4 {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/icon_22.jpg") no-repeat scroll center top transparent;
+    font-size: 14px;
+    padding: 11px 0 16px;
+}
+.MPicNews .picN {
+    border-bottom: 1px solid #E7E7E7;
+    overflow: hidden;
+    padding: 0 0 16px;
+}
+.MPicNews .picN p {
+    float: left;
+    margin: 1px 15px 0 0;
+    width: 120px;
+}
+.MPicNews .picN img {
+    float: left;
+    height: 75px;
+    padding: 4px 0 0;
+    width: 75px;
+}
+.MPicNews ul {
+    border-bottom: 1px solid #E7E7E7;
+    float: left;
+    padding: 4px 0 12px;
+    width: 213px;
+}
+.MPicNews ul li {
+    float: left;
+    line-height: 18px;
+    overflow: hidden;
+    width: 106px;
+}
+.MPicNews .MNewsL {
+    border-bottom: 1px solid #E7E7E7;
+    float: left;
+    padding: 4px 0 13px;
+    width: 213px;
+}
+.MPicNews .MNewsL span, .MPicNews .MNewsL span a {
+    color: #004276;
+    line-height: 18px;
+}
+.listNews01 {
+}
+.listNews01 h4 {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/zxicon_20.gif") no-repeat scroll center top transparent;
+    font-size: 14px;
+    padding: 11px 0 0;
+}
+.listNews01 .Mnews {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/zxicon_35.gif") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 132px;
+    overflow: hidden;
+    padding: 23px 5px 0 9px;
+    width: 199px;
+}
+.listNews01 .Mnews h3 {
+}
+.listNews01 .Mnews p {
+    padding: 2px 0 0;
+}
+.listNews01 .more {
+    border-top: 0 none;
+}
+.MPicNews01 {
+    float: left;
+    width: 213px;
+}
+.MPicNews01 h4 {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/zxicon_58.gif") no-repeat scroll center top transparent;
+    color: #FFFFFF;
+    float: left;
+    font-size: 14px;
+    height: 27px;
+    line-height: 18px;
+    padding: 12px 0 0 12px;
+    width: 201px;
+}
+.MPicNews01 h6 {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_v5/icon_01.gif") repeat-x scroll center bottom transparent;
+    border-top: 3px solid #D9D9D9;
+    float: left;
+    font-size: 14px;
+    font-weight: normal;
+    height: 27px;
+    line-height: 18px;
+    padding: 5px 0 6px;
+    width: 201px;
+}
+.MPicNews01 h3 {
+    border-bottom: 1px solid #D9D9D9;
+    float: left;
+    padding: 14px 0 3px 10px;
+    width: 203px;
+}
+.MPicNews01 .zhishu {
+    border-bottom: 1px solid #D9D9D9;
+    float: left;
+    padding: 7px 0 4px 10px;
+    width: 200px;
+}
+.MPicNews01 .zhishu p {
+    float: left;
+    line-height: 16px;
+    width: 200px;
+}
+.MPicNews01 .zhishu .zhi {
+    float: left;
+    font-size: 1px;
+    height: 4px;
+    line-height: 1px;
+    margin: 7px 0 0;
+    width: 130px;
+}
+.MPicNews01 .zhishu .zhi span {
+    background: none repeat scroll 0 0 #FD4A4E;
+    float: left;
+    height: 4px;
+}
+.MPicNews01 .zhishu .shu {
+    float: left;
+    width: 70px;
+}
+.MPicNews01 .zhishu .shu span {
+    color: #BA2636;
+    font: 11px/11px Arial;
+}
+.MPicNews01 .btx {
+    float: left;
+    padding: 32px 0 29px;
+    text-align: center;
+    width: 213px;
+}
+.MPicNews01 .btx p {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/zxicon_70.gif") no-repeat scroll 60px 9px transparent;
+    line-height: 18px;
+    padding: 4px 0 0;
+}
+.MPicNews01 .btx p a {
+    text-decoration: underline;
+}
+.MPicNews01 .popSurvey {
+    border-bottom: 1px solid #D9D9D9;
+    float: left;
+    padding: 4px 0 15px;
+    width: 213px;
+}
+.MPicNews01 .popSurvey .news {
+    float: left;
+    font-size: 14px;
+    padding: 3px 0;
+    width: 210px;
+}
+.MPicNews01 .popSurvey .survey {
+    float: left;
+    padding: 7px 0 0;
+    width: 210px;
+}
+.MPicNews01 .popSurvey .survey p {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_v5/0527_01.gif") no-repeat scroll 0 6px transparent;
+    float: left;
+    line-height: 18px;
+    text-indent: 1em;
+    width: 112px;
+}
+.MPicNews01 .popSurvey .survey p span {
+    font: 11px Arial;
+}
+.MPicNews01 .popSurvey .survey div {
+    float: left;
+    width: 93px;
+}
+.MPicNews01 .popSurvey .survey .bt {
+    padding: 2px 0 0;
+}
+.MnewsList {
+    border-top: 1px solid #D9D9D9;
+    float: left;
+    padding: 4px 0 13px;
+    width: 213px;
+}
+.MPicNews h4 {
+    float: left;
+    overflow: hidden;
+    width: 213px;
+}
+.MPicNews p {
+    float: left;
+    width: 213px;
+}
+.MPicNews span {
+}
+.MnewsList01 {
+    float: left;
+    padding: 12px 0 0;
+    width: 213px;
+}
+.MnewsList01 .title {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/zxicon_30.gif") repeat-x scroll 0 0 transparent;
+    float: left;
+    font-size: 14px;
+    height: 29px;
+    line-height: 18px;
+    margin: 0 0 14px;
+    padding: 8px 0 0 10px;
+    width: 203px;
+}
+.MnewsList01 .title span {
+    font: 18px Arial;
+}
+.MnewsList01 h3 {
+    padding-bottom: 2px;
+}
+.MnewsList01 h4 {
+    float: left;
+    width: 150px;
+}
+.MnewsList01 p {
+    float: left;
+    width: 213px;
+}
+.MnewsList01 .pkNews {
+    float: left;
+    overflow: hidden;
+    width: 213px;
+}
+.MnewsList01 .pkNews .nexNews {
+    border-bottom: 1px solid #D9D9D9;
+    border-top: 1px solid #D9D9D9;
+    float: left;
+    width: 213px;
+}
+.MnewsList01 .pkNews .tx {
+    float: left;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 5px 7px 5px 8px;
+}
+.MnewsList01 .pkNews .number {
+    background: none repeat scroll 0 0 #F2F6F9;
+    float: left;
+    margin: 17px 0 15px;
+    width: 213px;
+}
+.MnewsList01 .pkNews .number span {
+    font: 11px/11px Arial;
+}
+.MnewsList01 .pkNews .number h5 {
+    font-weight: normal;
+}
+.MnewsList01 .pkNews .number .exponentBj {
+    display: inline;
+    font-size: 1px;
+    height: 11px;
+    line-height: 1px;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 70px;
+}
+.MnewsList01 .pkNews .number .exponentBj .zhengfang {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/pkicon.gif") repeat scroll left center transparent;
+    float: right;
+    font-size: 1px;
+    height: 11px;
+    line-height: 1px;
+}
+.MnewsList01 .pkNews .number .exponentBj .fanfang {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/pkicon.gif") repeat scroll right center transparent;
+    float: left;
+    font-size: 1px;
+    height: 11px;
+    line-height: 1px;
+}
+.MnewsList01 .pkNews .titleN {
+    display: inline;
+    float: left;
+    line-height: 18px;
+    margin: -2px 0 0 10px;
+    width: 190px;
+}
+.MnewsList01 .pkNews .titleN span {
+    color: #666666;
+    font: 11px Arial;
+}
+.MnewsList01 .pkNews .textNew {
+    display: inline;
+    float: left;
+    height: 19px;
+    margin: 0 0 0 10px;
+    padding: 2px 0 0;
+    width: 190px;
+}
+.MnewsList01 .pkNews .textNew .tx {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/zxicon_962.gif") no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    color: #666666;
+    font-size: 12px;
+    height: 17px;
+    line-height: 12px;
+    overflow: hidden;
+    padding: 9px 5px 0;
+    width: 180px;
+}
+.MnewsList01 .pkNews .btx {
+    float: left;
+    padding: 17px 0 0;
+    text-align: center;
+    width: 213px;
+}
+.MnewsList01 .pkNews .btx p {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/zxicon_70.gif") no-repeat scroll 60px 9px transparent;
+    line-height: 18px;
+    padding: 4px 0 0;
+}
+.MnewsList01 .pkNews .btx p a {
+    text-decoration: underline;
+}
+.MnewsList01 .pkNews .btx1 {
+    float: left;
+    padding: 17px 0 0;
+    text-align: right;
+    width: 213px;
+}
+.MnewsList01 .pkNews .btx1 p {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/zxicon_70.gif") no-repeat scroll 155px 9px transparent;
+    line-height: 18px;
+    padding: 4px 0 0;
+}
+.MnewsList01 .pkNews .btx1 p a {
+    text-decoration: underline;
+}
+.videoList {
+    background: none repeat scroll 0 0 #F8F8F8;
+    border-top: 10px solid #2B2B2B;
+    margin: 0 0 17px;
+}
+.videoList .title {
+    float: left;
+    height: 40px;
+    width: 396px;
+}
+.videoList .title h4 {
+    float: left;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 7px 0 0 10px;
+    width: 100px;
+}
+.videoList .title span {
+    float: right;
+    padding: 9px 0 0;
+    width: 58px;
+}
+.videoList .title span img {
+    cursor: pointer;
+}
+.videoList .list {
+    border-bottom: 1px solid #E7E7E7;
+    border-top: 1px solid #E7E7E7;
+    float: left;
+    height: 125px;
+    padding: 7px 0;
+    width: 396px;
+}
+.videoList .more {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/icon01_07.gif") no-repeat scroll 40px 11px transparent;
+    border: 0 none;
+    float: left;
+    height: 31px;
+    line-height: 18px;
+    padding: 4px 0 0 8px;
+    width: 388px;
+}
+.videoList .list .Cont {
+    float: left;
+    overflow: hidden;
+    width: 396px;
+}
+.videoList .list .ScrCont {
+    float: left;
+    width: 100000px;
+}
+#List1, #List2 {
+    float: left;
+}
+.videoList .list .box {
+    display: inline;
+    float: left;
+    margin: 0 9px 0 0;
+    position: relative;
+    width: 126px;
+}
+.videoList .list .box .boxBorderBg {
+    height: 18px;
+    left: 50px;
+    opacity: 0.7;
+    position: absolute;
+    top: 30px;
+    width: 24px;
+}
+.videoList .list .box .boxBorderBg img {
+    background: none repeat scroll 0 0 transparent;
+    height: 18px;
+    padding: 0;
+    width: 24px;
+}
+.videoList .list .box img {
+    background: none repeat scroll 0 0 #000000;
+    display: block;
+    height: 66px;
+    padding: 8px 0;
+    width: 126px;
+}
+.videoList .list .box p {
+    line-height: 18px;
+    margin: 3px auto 0;
+    padding: 0 0 0 8px;
+    width: 116px;
+}
+.mainNewsList {
+}
+.mainNewsList h4 {
+    border-top: 1px solid #999999;
+    float: left;
+    font-size: 16px;
+    height: 21px;
+    line-height: 20px;
+    margin: 0 0 10px;
+    padding: 5px 0 0 3px;
+    width: 393px;
+}
+.mainNewsList ul {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/icon_01.gif") repeat-x scroll center bottom transparent;
+    padding: 3px 0 13px;
+}
+.mainNewsList ul li {
+    color: #000000;
+    float: left;
+    font-size: 14px;
+    width: 393px;
+}
+.mainNewsList ul li a {
+    color: #004276;
+    line-height: 22px;
+}
+.mainNewsList ul li span {
+    font: 11px Arial;
+    padding: 0 0 0 10px;
+}
+.newsFocus {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_v5/icon_01.gif") repeat-x scroll center top transparent;
+    float: left;
+    padding: 0 0 9px 3px;
+    width: 393px;
+}
+.newsFocus .adTitle {
+    background: none repeat scroll 0 0 transparent;
+    float: left;
+    margin: 0 5px 0 0;
+    width: 51px;
+}
+.newsFocus .adTitle .title {
+    background: none repeat scroll 0 0 #004276;
+    color: #FFFFFF;
+    font-size: 12px;
+    height: 14px;
+    margin: 5px 0 0;
+    padding: 1px 0 0;
+    text-align: center;
+    width: 51px;
+}
+.newsFocus .adTitle .ad {
+    height: 15px;
+    width: 51px;
+}
+.newsFocus .newsList {
+    background: none repeat scroll 0 0 transparent;
+    float: left;
+    padding: 4px 0 0;
+    width: 335px;
+}
+.newsFocus .newsList li {
+    color: #000000;
+    float: left;
+    font-size: 14px;
+    width: 337px;
+}
+.newsFocus .newsList li a {
+    color: #004276;
+    float: left;
+    line-height: 22px;
+}
+.newsFocus .newsList li.Function {
+    float: left;
+    padding: 3px 0 0;
+    width: 50px;
+}
+.newsFocus .newsList li.Function span {
+    font: 11px Arial;
+    padding: 0 0 0 10px;
+}
+.topic {
+    background: none repeat scroll 0 0 #FFFFFF;
+    float: left;
+    padding: 15px 0 0;
+    width: 335px;
+}
+.topic .topicList {
+    border: 1px solid #D9D9D9;
+    float: left;
+    height: 70px;
+    width: 333px;
+}
+.topic .topicList p {
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 22px;
+    padding: 15px 9px 0;
+    width: 151px;
+}
+.topic .topicList img {
+    float: left;
+    height: 70px;
+    width: 164px;
+}
+.topic .topicList01 {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_v5/icon_ad.gif") no-repeat scroll 0 0 transparent;
+    border: 1px solid #D9D9D9;
+    float: left;
+    height: 70px;
+    width: 333px;
+}
+.topic .topicList01 p {
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 22px;
+    padding: 20px 9px 0;
+    width: 151px;
+}
+.topic .topicList01 img {
+    float: left;
+    height: 70px;
+    width: 164px;
+}
+.topicList02 {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_v5/icon_ad.gif") no-repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #D9D9D9;
+    float: left;
+    height: 70px;
+    margin: 0 0 10px;
+    width: 313px;
+}
+.topicList02 p {
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 22px;
+    padding: 20px 9px 0;
+    width: 131px;
+}
+.topicList02 img {
+    float: left;
+    height: 70px;
+    width: 164px;
+}
+.mainRsx {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #D9D9D9;
+    float: left;
+    margin: 0 0 10px;
+    padding: 10px;
+    width: 293px;
+}
+.mainRsx li {
+    color: #007BBB;
+    float: left;
+    line-height: 18px;
+    width: 146px;
+}
+.mainRsx li a {
+    color: #007BBB;
+}
+.mainRsx02 {
+    border-top: 1px solid #D9D9D9;
+    float: left;
+    margin: 10px 0 0;
+    padding: 4px 0 10px;
+    width: 396px;
+}
+.mainRsx02 li {
+    color: #007BBB;
+    float: left;
+    line-height: 18px;
+    width: 132px;
+}
+.mainRsx02 li a {
+    color: #007BBB;
+}
+.RpicNews01 {
+    float: left;
+    margin: 0 0 10px;
+    padding: 0 0 5px;
+    width: 313px;
+}
+.RpicNews01 h4 {
+    border-bottom: 1px solid #D9D9D9;
+    float: left;
+    font-size: 14px;
+    height: 30px;
+    line-height: 20px;
+    padding: 10px 0 0 13px;
+    width: 300px;
+}
+.RpicNews01 .picNews {
+    float: left;
+    padding: 10px 0 0;
+    width: 313px;
+}
+.RpicNews01 .picNews .picL {
+    display: inline;
+    float: left;
+    margin: 0 15px;
+    width: 144px;
+}
+.RpicNews01 .picNews .picL h3 {
+}
+.RpicNews01 .picNews .picL p {
+    height: 72px;
+    overflow: hidden;
+    width: 144px;
+}
+.RpicNews01 .picNews .picL h5 {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/icon01_03.gif") no-repeat scroll 30px 3px transparent;
+    float: left;
+    font-weight: normal;
+    height: 18px;
+    width: 144px;
+}
+.RpicNews01 .picNews .picL ul {
+    float: left;
+    width: 144px;
+}
+.RpicNews01 .picNews .picL ul li {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/icon_66.gif") no-repeat scroll 0 5px transparent;
+    line-height: 20px;
+    padding: 0 0 0 12px;
+}
+.RpicNews01 .picNews .picL .stop {
+    height: auto;
+    overflow: auto;
+}
+.RpicNews01 .picNews .picR {
+    float: left;
+    width: 126px;
+}
+.RpicNews01 .picNews .picR img {
+    border: 1px solid #D9D9D9;
+    float: left;
+    width: 124px;
+}
+.RpicNews01 .picNews .picR h4 {
+    float: left;
+    line-height: 18px;
+    padding: 5px 0 0;
+    width: 124px;
+}
+.RpicNews01 .more {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/icon01_07.gif") no-repeat scroll 45px 11px transparent;
+    border-top: 1px solid #D9D9D9;
+    float: left;
+    height: 23px;
+    line-height: 18px;
+    margin: 10px 0 0;
+    padding: 4px 0 0 15px;
+    width: 298px;
+}
+.RpicNews02 {
+    float: left;
+    margin: 0 0 10px;
+    width: 313px;
+}
+.RpicNews02 h4 {
+    border-bottom: 1px solid #D9D9D9;
+    float: left;
+    font-size: 14px;
+    height: 30px;
+    line-height: 20px;
+    padding: 10px 0 0 13px;
+    width: 300px;
+}
+.RpicNews02 .picNList {
+    border-bottom: 1px solid #D9D9D9;
+    float: left;
+    padding: 6px 0;
+    width: 313px;
+}
+.RpicNews02 .picNList .picN {
+    float: left;
+    padding: 0 20px 0 15px;
+    width: 205px;
+}
+.RpicNews02 .picNList .picN h3 {
+    float: left;
+    font: 12px normal;
+    width: 205px;
+}
+.RpicNews02 .picNList .picN p {
+    float: left;
+    width: 205px;
+}
+.RpicNews02 .picNList .picN p span {
+    font: 11px Arial;
+}
+.RpicNews02 .picNList .picP {
+    float: left;
+    height: 45px;
+    width: 60px;
+}
+.RpicNews02 .picNList .picP img {
+    height: 45px;
+    width: 45px;
+}
+.RpicNews02 .picNList .picN01 {
+    float: left;
+    width: 205px;
+}
+.RpicNews02 .picNList .picN01 h3 {
+    float: left;
+    width: 205px;
+}
+.RpicNews02 .picNList .picN01 p {
+    float: left;
+    width: 205px;
+}
+.RpicNews02 .picNList .picN01 p span {
+    font: 11px Arial;
+}
+.RpicNews02 .picNList .picP01 {
+    float: left;
+    padding: 3px 12px 0 15px;
+    width: 60px;
+}
+.RpicNews02 .picNList .picP01 img {
+    height: 45px;
+    width: 60px;
+}
+.RpicNews02 .more {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/icon01_07.gif") no-repeat scroll 45px 17px transparent;
+    float: left;
+    height: 33px;
+    line-height: 18px;
+    padding: 10px 0 0 15px;
+    width: 298px;
+}
+#globalSearch {
+    float: left;
+    padding: 17px 0 12px 15px;
+    width: 300px;
+}
+#globalSearch span {
+    float: left;
+}
+#globalSearch.text {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #D9D9D9;
+    color: #666666;
+    font-size: 12px;
+    height: 17px;
+    margin-top: 1px !important;
+    padding: 4px 0 0 5px;
+    width: 151px;
+}
+#globalSearch.sel {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/icon02_03.gif") no-repeat scroll right center #FFFFFF;
+    border-color: #D9D9D9 -moz-use-text-color;
+    border-image: none;
+    border-style: solid none;
+    border-width: 1px medium;
+    color: #004276;
+    font-size: 12px;
+    height: 17px;
+    margin: 1px 9px 0 0;
+    padding: 4px 0 0 11px;
+    width: 60px;
+}
+#globalSearch.button {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/icon02_05.gif") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #FFFFFF;
+    height: 23px;
+    margin: 1px 0 0;
+    padding: 1px 0 0 2px;
+    width: 47px;
+}
+.history {
+    float: left;
+    margin: 0 0 10px;
+    padding: 0 0 17px;
+    width: 313px;
+}
+.history h4 {
+    border-bottom: 1px solid #D9D9D9;
+    float: left;
+    font-size: 14px;
+    height: 30px;
+    line-height: 20px;
+    padding: 10px 0 0 13px;
+    width: 300px;
+}
+.history .list {
+    display: inline;
+    float: left;
+    margin: 2px 15px 0;
+    width: 283px;
+}
+.history .list div {
+    float: left;
+}
+.history .list .sel {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/icon02_03.gif") no-repeat scroll right center #FFFFFF;
+    border-color: #D9D9D9 -moz-use-text-color #D9D9D9 #D9D9D9;
+    border-image: none;
+    border-style: solid none solid solid;
+    border-width: 1px medium 1px 1px;
+    color: #004276;
+    cursor: pointer;
+    font-size: 12px;
+    height: 17px;
+    margin: 7px 9px 0 0;
+    padding: 4px 0 0 5px;
+    width: 72px;
+}
+.history .list .button {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/zxicon_34.gif") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #000000;
+    cursor: pointer;
+    float: left;
+    height: 20px;
+    line-height: 18px;
+    margin: 0 auto 2px;
+    text-align: center;
+    width: 55px;
+}
+.picNews01 {
+    background: none repeat scroll 0 0 #F8F8F8;
+    border-top: 10px solid #2B2B2B;
+    float: left;
+    margin: 0 23px 0 0;
+    width: 642px;
+}
+.picNews01 h4 {
+    border-bottom: 1px solid #D9D9D9;
+    float: left;
+    font-size: 16px;
+    height: 30px;
+    line-height: 20px;
+    padding: 10px 0 0 5px;
+    width: 637px;
+}
+.picNews01 .mainNs {
+    float: left;
+    padding: 0 0 13px;
+    width: 642px;
+}
+.picNews01 .mainNs .mainNsL {
+    float: left;
+    margin: 0 33px 0 0;
+    width: 396px;
+}
+.picNews01 .mainNs .mainNsR {
+    float: left;
+    width: 201px;
+}
+.picNews01 .more {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/icon01_07.gif") no-repeat scroll 45px 10px transparent;
+    border-top: 1px solid #D9D9D9;
+    float: left;
+    height: 31px;
+    line-height: 18px;
+    padding: 4px 0 0 15px;
+    width: 627px;
+}
+.picNews01 .mainNsL .picN {
+    display: inline;
+    float: left;
+    margin: 0 0 0 10px;
+    width: 360px;
+}
+.picNews01 .mainNsL .picN .pic {
+    float: left;
+    margin: 7px 23px 0 0;
+    width: 144px;
+}
+.picNews01 .mainNsL .picN .pic img {
+    border: 1px solid #D9D9D9;
+    float: left;
+    height: 142px;
+    width: 142px;
+}
+.picNews01 .mainNsL .picN .pic h4 {
+    float: left;
+    line-height: 20px;
+    padding: 2px 0 0;
+    width: 144px;
+}
+.picNews01 .mainNsL .picN .pic01 {
+    float: left;
+    margin: 7px 17px 0 0;
+    width: 144px;
+}
+.picNews01 .mainNsL .picN .pic01 img {
+    border: 1px solid #D9D9D9;
+    float: left;
+    height: 140px;
+    width: 140px;
+}
+.picNews01 .mainNsL .picN .pic01 h4 {
+    float: left;
+    line-height: 20px;
+    padding: 2px 0 0;
+    width: 144px;
+}
+.picNews01 .mainNsL .picN .img1 {
+    float: left;
+    padding: 6px 0 0;
+    width: 193px;
+}
+.picNews01 .mainNsL .picN .img1 h3 {
+    float: left;
+    padding: 0 0 12px;
+    width: 193px;
+}
+.picNews01 .mainNsL .picN .img1 p {
+    float: left;
+    width: 193px;
+}
+.picNews01 .mainNs .mainNsR .title {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/zxicon_32.gif") repeat-x scroll 0 0 transparent;
+    float: left;
+    margin: 7px 0 0;
+    width: 201px;
+}
+.picNews01 .mainNs .mainNsR .title h6 {
+    background: none repeat scroll 0 0 #FFFFFF;
+    float: left;
+    font-weight: normal;
+    line-height: 12px;
+    width: 40px;
+}
+.picNews01 .mainNs .mainNsR h3 {
+    color: #004276;
+    float: left;
+    padding: 12px 0 3px;
+    width: 201px;
+}
+.picNews01 .mainNs .mainNsR h3 a {
+    color: #004276;
+}
+.picNews01 .mainNs .mainNsR img {
+    border: 1px solid #D9D9D9;
+    float: left;
+    height: 73px;
+    margin: 0 12px 0 0;
+    width: 73px;
+}
+.picNews01 .mainNs .mainNsR p {
+    float: left;
+    width: 113px;
+}
+.picNews01 .mainNs .mainNsR .picN {
+    float: left;
+    width: 201px;
+}
+.picNews01 .mainNs .mainNsR .LightBlue01 {
+    float: left;
+    padding: 4px 0 0;
+    width: 201px;
+}
+.picNews01 .mainNs .mainNsR .LightBlue01 li {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/icon_66.gif") no-repeat scroll 0 4px transparent;
+    line-height: 18px;
+    padding: 0 0 0 15px;
+}
+.picNews01 .mainNs .mainNsR .listNews00 {
+    float: left;
+    padding: 5px 0 0;
+    width: 201px;
+}
+.picNews01 .mainNs .mainNsR .listNews00 li {
+    float: left;
+    width: 190px;
+}
+.picNews01 .mainNs .mainNsR .listNews00 li span {
+    float: left;
+    line-height: 18px;
+    width: 35px;
+}
+.picNews01 .mainNs .mainNsR .listNews00 li a {
+    color: #004276;
+    float: left;
+    line-height: 18px;
+    width: 150px;
+}
+.picNews05 {
+    float: left;
+    margin: 0 0 10px;
+    overflow: hidden;
+    padding: 0 0 12px;
+    width: 313px;
+}
+.picNews05 h4 {
+    border-bottom: 1px solid #D9D9D9;
+    float: left;
+    font-size: 14px;
+    height: 30px;
+    padding: 10px 0 0 13px;
+    width: 300px;
+}
+.picNews05 .picTitle, .picNews05 .picTitle2, .picNews05 .picTitle3, .picNews05 .picTitle4, .picNews05 .picTitle5, .picNews05 .picTitle6, .picNews05 .picTitle7, .picNews05 .picTitle8, .picNews05 .picTitle9 {
+    float: left;
+    height: 24px;
+    margin: 3px 0 0;
+    padding: 14px 10px 0 0;
+    text-align: right;
+    width: 302px;
+}
+.picNews05 .picTitle {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/zxicon_33.gif") no-repeat scroll 0 0 transparent;
+}
+.picNews05 .picTitle2 {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/zxicon_33a.gif") no-repeat scroll 0 0 transparent;
+}
+.picNews05 .picTitle3 {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/zxicon_33b.gif") no-repeat scroll 0 0 transparent;
+}
+.picNews05 .picTitle4 {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/zxicon_33c.gif") no-repeat scroll 0 0 transparent;
+}
+.picNews05 .picTitle5 {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/zxicon_33d.gif") no-repeat scroll 0 0 transparent;
+}
+.picNews05 .picTitle6 {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/zxicon_33e.gif") no-repeat scroll 0 0 transparent;
+}
+.picNews05 .picTitle7 {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/zxicon_33f.gif") no-repeat scroll 0 0 transparent;
+}
+.picNews05 .picTitle8 {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/zxicon_33g.gif") no-repeat scroll 0 0 transparent;
+}
+.picNews05 .picTitle9 {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/zxicon_33h.gif") no-repeat scroll 0 0 transparent;
+}
+.picNews05 .mNews {
+    background: none repeat scroll 0 0 #F5F6F1;
+    display: inline;
+    float: left;
+    margin: 10px 10px 0;
+    padding: 12px 15px 15px;
+    width: 263px;
+}
+.picNews05 .img1 {
+    float: left;
+    width: 263px;
+}
+.picNews05 .LightBlue01 {
+    float: left;
+    padding: 11px 0 0;
+    width: 263px;
+}
+.picNews05 .LightBlue01 li {
+    line-height: 22px;
+    padding: 0 0 0 15px;
+}
+.picNews05 .titpk {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/zxicon_70a.gif") no-repeat scroll left 4px transparent;
+    margin: 15px 0 2px;
+    padding-left: 8px;
+}
+.picNews05 .itempk {
+    height: auto;
+    padding: 4px 0 0;
+    width: 263px;
+}
+.picNews05 .itempk li {
+    color: #292927;
+    display: block;
+    height: 18px;
+    line-height: 18px;
+}
+.picNews05 .itempk li span {
+    color: #C90006;
+    float: right;
+}
+.cydc {
+    color: #C90006;
+    float: right;
+}
+.cydc a {
+    color: #C90006;
+    line-height: 22px;
+    text-decoration: none;
+}
+.cydc a:hover {
+    color: #C90006;
+    text-decoration: underline;
+}
+.wdszDl {
+    width: 270px;
+}
+.wdszDl dt {
+    border: 1px solid #87919A;
+    float: left;
+    height: 70px;
+    width: 70px;
+}
+.wdszDl dd {
+    float: left;
+    padding: 0 0 0 8px;
+    width: 184px;
+}
+.picNews05 .wdszText {
+    padding: 15px 0 0;
+}
+.picNews05 .wdszText p {
+    color: #080806;
+    line-height: 20px;
+    margin-bottom: 4px;
+}
+.picNews05 .wdszText p a {
+    line-height: 20px;
+}
+.picNews05 .more {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/icon01_07.gif") no-repeat scroll 80px 12px transparent;
+    border-bottom: 1px solid #D9D9D9;
+    float: left;
+    height: 20px;
+    line-height: 18px;
+    padding: 5px 0 11px 27px;
+    width: 286px;
+}
+.picNews05 .more01 {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/icon01_07.gif") no-repeat scroll 55px 12px transparent;
+    border-top: 1px solid #D9D9D9;
+    float: left;
+    height: 20px;
+    line-height: 18px;
+    margin: 20px 0 0;
+    padding: 5px 0 0 27px;
+    width: 286px;
+}
+.picNews05 .more02 {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/icon01_07.gif") no-repeat scroll 80px 9px transparent;
+    float: left;
+    height: 20px;
+    line-height: 18px;
+    padding: 0 0 0 27px;
+    width: 286px;
+}
+.picNews05 .btPhoto {
+    display: inline;
+    float: left;
+    height: 27px;
+    margin: 7px 0 0 57px;
+    width: 210px;
+}
+.picNews05 .btPhoto .bt02, .picNews05 .btPhoto .bt03, .picNews05 .btPhoto .bt04, .picNews05 .btPhoto .bt05, .picNews05 .btPhoto .bt06, .picNews05 .btPhoto .bt07, .picNews05 .btPhoto .bt08 {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/icon_66.gif") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    height: 9px;
+    margin: 5px;
+    width: 9px;
+}
+.picNews05 .btPhoto .current {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/icon_64.gif") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    height: 9px;
+    margin: 5px;
+    width: 9px;
+}
+.picNews05 .btPhoto .bt01, .picNews05 .btPhoto .bt09 {
+    float: left;
+    height: 19px;
+    margin: 0 5px;
+    width: 23px;
+}
+.picNews05 .btPhoto .bt01 img, .picNews05 .btPhoto .bt09 img {
+    cursor: pointer;
+}
+.picNews04 {
+    float: left;
+    padding: 14px 0 0 15px;
+    width: 298px;
+}
+.picNews05 .picNews04 .LightBlue01 {
+    padding: 2px 0;
+}
+.picNews04 img {
+    border: 1px solid #D9D9D9;
+    float: left;
+    height: 133px;
+    margin: 3px 10px 0 0;
+    width: 101px;
+}
+.picNews04 .img1 {
+    float: left;
+    width: 170px;
+}
+.picNews04 .img1 h3 {
+    float: left;
+    width: 170px;
+}
+.picNews04 .img1 p {
+    float: left;
+    width: 170px;
+}
+.newsMList {
+    border-top: 10px solid #709FBD;
+    float: left;
+    width: 396px;
+}
+.newsMList h4 {
+    float: left;
+    font-size: 16px;
+    height: 31px;
+    padding: 7px 0 0 5px;
+    width: 391px;
+}
+.newsMList h4 div {
+    float: left;
+    font-size: 16px;
+    width: 50px;
+}
+.newsMList h4 span {
+    float: right;
+    height: 20px;
+    text-align: right;
+    width: 220px;
+}
+.newsMList h4 span img {
+    height: 20px;
+    width: 200px;
+}
+.newsMList h3 {
+    float: left;
+    padding: 0 0 0 5px;
+    width: 391px;
+}
+.newsMList p {
+    float: left;
+    padding: 2px 0 0 5px;
+    width: 373px;
+}
+.newsMList ul {
+    float: left;
+    padding: 9px 0 0 5px;
+    width: 391px;
+}
+.newsMList ul li {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_v5/icon_66.gif") no-repeat scroll 0 6px transparent;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 0 0 0 15px;
+}
+.newsMList ul li a {
+    color: #004276;
+}
+.newsMList ul li span {
+    color: #000000;
+    font: 11px/18px Arial;
+    padding: 0 0 0 5px;
+}
+.newsMList .more {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_v5/icon01_07.gif") no-repeat scroll 35px 11px transparent;
+    border-top: 1px solid #D9D9D9;
+    float: left;
+    height: 31px;
+    line-height: 18px;
+    margin: 15px 0 0;
+    padding: 4px 0 0 7px;
+    width: 389px;
+}
+.MphotoList {
+    border-top: 10px solid #2B2B2B;
+    float: left;
+    padding: 0 0 0 5px;
+    width: 391px;
+}
+.MphotoList h4 {
+    float: left;
+    font-size: 16px;
+    height: 27px;
+    line-height: 20px;
+    padding: 5px 0 8px;
+    width: 396px;
+}
+.MphotoList .photoL {
+    border: 1px solid #D9D9D9;
+    float: left;
+    padding: 19px;
+    position: relative;
+    width: 356px;
+}
+.MphotoList .photolist {
+    height: 315px;
+    width: 356px;
+}
+.MphotoList .photo {
+    float: left;
+    height: 315px;
+    width: 356px;
+}
+.MphotoList .photo h4 {
+    float: left;
+    line-height: 18px;
+    padding: 39px 0 0;
+    width: 356px;
+}
+.MphotoList .btPhoto {
+    float: left;
+    height: 27px;
+    left: 100px;
+    position: absolute;
+    top: 271px;
+    width: 210px;
+    z-index: 9;
+}
+.MphotoList .btPhoto .bt02, .MphotoList .btPhoto .bt03, .MphotoList .btPhoto .bt04, .MphotoList .btPhoto .bt05, .MphotoList .btPhoto .bt06, .MphotoList .btPhoto .bt07, .MphotoList .btPhoto .bt08 {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/icon_66.gif") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    height: 9px;
+    margin: 5px;
+    width: 9px;
+}
+.MphotoList .btPhoto .current {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/icon_64.gif") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    height: 9px;
+    margin: 5px;
+    width: 9px;
+}
+.MphotoList .btPhoto .bt01, .MphotoList .btPhoto .bt09 {
+    float: left;
+    height: 19px;
+    margin: 0 5px;
+    width: 23px;
+}
+.MphotoList .btPhoto .bt01 img, .MphotoList .btPhoto .bt09 img {
+    cursor: pointer;
+}
+.RpicNews02 .label {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/zxicon_28.gif") repeat-x scroll center bottom transparent;
+    float: left;
+    height: 21px;
+    width: 315px;
+}
+.RpicNews02 .label li {
+    background: none repeat scroll 0 0 #F0F0F0;
+    border-bottom: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+    cursor: pointer;
+    float: left;
+    height: 16px;
+    padding-top: 3px;
+    text-align: center;
+    width: 65px;
+}
+.RpicNews02 .label li.current {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 0 none;
+    float: left;
+    height: 17px;
+    padding-top: 3px;
+    text-align: center;
+    width: 65px;
+}
+.RpicNews02 .list4 {
+    float: left;
+    overflow: hidden;
+    width: 315px;
+}
+.alexBook {
+    float: left;
+    padding: 9px 0 0 17px;
+    width: 285px;
+}
+.alexBook li {
+    border-bottom: 1px solid #D9D9D9;
+    float: left;
+    padding: 4px 0 13px;
+    width: 285px;
+}
+.alexBook li span {
+    color: #BA2636;
+    float: left;
+    width: 265px;
+}
+.alexBook li img {
+    float: left;
+}
+.alexBook li a {
+    color: #004276;
+    line-height: 18px;
+    padding: 1px 0 0;
+    width: 285px;
+}
+.RpicNews02 .list4 {
+}
+.space09 {
+    background: none repeat scroll 0 0 #FFFFFF;
+    clear: both;
+    font-size: 1px;
+    height: 10px;
+    line-height: 1px;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 335px;
+}
+#globalSearch02 {
+    float: left;
+    padding: 7px 0 12px 10px;
+    width: 320px;
+}
+#globalSearch02 span {
+    float: left;
+}
+#globalSearch02.f14 {
+    padding: 3px 5px 0 0;
+}
+#globalSearch02.sel {
+    color: #004276;
+    font-size: 12px;
+    height: 16px;
+    margin: 1px 9px 0 0;
+    padding: 2px 0 0;
+    width: 178px;
+}
+#globalSearch02.button {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/sousuo01.gif") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 23px;
+    padding: 1px 0 0;
+    width: 65px;
+}
+.RpicNews02 .Alabel02 {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/zxicon_28.gif") repeat-x scroll center bottom transparent;
+    float: left;
+    height: 23px;
+    width: 315px;
+}
+.RpicNews02 .Alabel02 li {
+    background: none repeat scroll 0 0 #F0F0F0;
+    border-bottom: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+    cursor: pointer;
+    float: left;
+    font-size: 12px;
+    height: 16px;
+    padding-top: 5px;
+    text-align: center;
+    width: 75px;
+}
+.RpicNews02 .Alabel02 li.current {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 0 none;
+    float: left;
+    height: 17px;
+    padding-top: 5px;
+    text-align: center;
+    width: 75px;
+}
+.navFind03 {
+    padding: 8px 0 9px;
+    width: 396px;
+}
+.navFind03 span {
+    float: left;
+}
+.navFind03 .text {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #819BB4;
+    color: #646464;
+    font-size: 12px;
+    height: 16px;
+    margin-right: 7px;
+    margin-top: 1px !important;
+    padding: 2px 0 0 5px;
+    width: 182px;
+}
+.navFind03 .list {
+    float: left;
+    width: 396px;
+}
+.navFind03 .list .sel {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/icon02_03.gif") no-repeat scroll right center #FFFFFF;
+    border-color: #D9D9D9 -moz-use-text-color #D9D9D9 #D9D9D9;
+    border-image: none;
+    border-style: solid none solid solid;
+    border-width: 1px medium 1px 1px;
+    color: #004276;
+    cursor: pointer;
+    font-size: 12px;
+    height: 15px;
+    margin: 0 5px 5px 0;
+    padding: 2px 0 0 5px;
+    width: 60px;
+}
+.navFind03 .list .button {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #D9D9D9;
+    color: #2B2B2B;
+    cursor: pointer;
+    font-size: 12px;
+    height: 19px;
+    line-height: 12px;
+    margin: 0 0 4px;
+    padding: 1px 0 0;
+    width: 35px;
+}
+.nextPage {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/list_nextpagebg.gif") repeat-x scroll 0 0 transparent;
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    padding: 2px 0 0;
+    width: 396px;
+}
+.nextPage a {
+    line-height: 28px;
+}
+.nextPage .l_home {
+    float: left;
+    margin: 0 110px 0 0;
+}
+.nextPage .r_end {
+    float: right;
+}
+.MnewsListM01 {
+    background: none repeat scroll 0 0 #F1F1F1;
+    border: 1px solid #D9D9D9;
+    float: left;
+    padding: 6px 5px 10px;
+    width: 201px;
+}
+.MnewsListM01 span {
+    background: none repeat scroll 0 0 #FFFFFF;
+    display: inline;
+    float: left;
+    margin: 0 2px;
+    padding: 5px 5px 0;
+    width: 187px;
+}
+.MnewsListM01 span img {
+    border: 1px solid #D9D9D9;
+    float: left;
+    width: 185px;
+}
+.MnewsListM01 p {
+    float: left;
+    padding: 4px 0 0;
+    width: 185px;
+}
+.topicSh {
+    display: inline;
+    float: left;
+    margin: 10px 10px 0;
+    width: 315px;
+}
+.topicSh .topicList {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/icon_04.gif") no-repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #D9D9D9;
+    float: left;
+    height: 70px;
+    width: 313px;
+}
+.topicSh .topicList p {
+    float: left;
+    line-height: 18px;
+    padding: 20px 9px 0;
+    width: 131px;
+}
+.topicSh .topicList img {
+    float: left;
+    height: 70px;
+    width: 164px;
+}
+.MphotoList01 {
+    border-top: 1px solid #D9D9D9;
+    float: left;
+    width: 396px;
+}
+.MphotoList01 h2 {
+    float: left;
+    font-size: 16px;
+    height: 27px;
+    line-height: 20px;
+    padding: 5px 0 8px;
+    width: 396px;
+}
+.MphotoList01 .photoL {
+    float: left;
+    position: relative;
+    width: 396px;
+}
+.MphotoList01 .photolist {
+    height: 235px;
+    width: 396px;
+}
+.MphotoList01 .photo {
+    float: left;
+    height: 235px;
+    width: 396px;
+}
+.MphotoList01 .photo img {
+    border: 1px solid #D9D9D9;
+}
+.MphotoList01 .photo h4 {
+    float: left;
+    line-height: 18px;
+    padding: 29px 0 0;
+    width: 396px;
+}
+.MphotoList01 .btPhoto {
+    background: none repeat scroll 0 0 #F0F0F0;
+    float: left;
+    height: 22px;
+    left: 0;
+    padding: 3px 93px 0;
+    position: absolute;
+    top: 160px;
+    width: 210px;
+    z-index: 9;
+}
+.MphotoList01 .btPhoto .bt02, .MphotoList01 .btPhoto .bt03, .MphotoList01 .btPhoto .bt04, .MphotoList01 .btPhoto .bt05, .MphotoList01 .btPhoto .bt06, .MphotoList01 .btPhoto .bt07, .MphotoList01 .btPhoto .bt08 {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/icon_66.gif") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    height: 9px;
+    margin: 5px;
+    width: 9px;
+}
+.MphotoList01 .btPhoto .current {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/icon_64.gif") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    height: 9px;
+    margin: 5px;
+    width: 9px;
+}
+.MphotoList01 .btPhoto .bt01, .MphotoList01 .btPhoto .bt09 {
+    float: left;
+    height: 19px;
+    margin: 0 5px;
+    width: 23px;
+}
+.MphotoList01 .btPhoto .bt01 img, .MphotoList01 .btPhoto .bt09 img {
+    cursor: pointer;
+}
+.newsMList02 {
+    border-top: 10px solid #709FBD;
+    float: left;
+    width: 396px;
+}
+.newsMList02 h4 {
+    float: left;
+    font-size: 16px;
+    height: 31px;
+    padding: 7px 0 0;
+    width: 396px;
+}
+.newsMList02 h3 {
+    float: left;
+    width: 396px;
+}
+.newsMList02 p {
+    float: left;
+    padding: 2px 0 0;
+    width: 365px;
+}
+.newsMList02 ul {
+    float: left;
+    padding: 9px 0 0;
+    width: 396px;
+}
+.newsMList02 ul li {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/icon_66.gif") no-repeat scroll 0 6px transparent;
+    float: left;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 0 0 0 15px;
+    width: 381px;
+}
+.newsMList02 ul li a {
+    color: #004276;
+    float: left;
+    overflow: hidden;
+    width: 305px;
+}
+.newsMList02 ul li span {
+    color: #666666;
+    float: right;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: right;
+    width: 75px;
+}
+.newsMList02 .more {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/icon01_07.gif") no-repeat scroll 35px 11px transparent;
+    border-top: 1px solid #D9D9D9;
+    float: left;
+    height: 31px;
+    line-height: 18px;
+    margin: 15px 0 0;
+    padding: 4px 0 0 7px;
+    width: 389px;
+}
+.MPicNews .timeNs {
+    background: none repeat scroll 0 0 #F0F0F0;
+    color: #6A6A6A;
+    float: left;
+    height: 23px;
+    line-height: 20px;
+    margin: 0 0 5px;
+    padding: 3px 0 0 5px;
+    width: 208px;
+}
+.MPicNews dl {
+    float: left;
+    padding: 4px 0 12px;
+    width: 213px;
+}
+.MPicNews dl dt {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/icon01_03.gif") no-repeat scroll 30px 3px transparent;
+    float: left;
+    font-weight: normal;
+    height: 18px;
+    width: 213px;
+}
+.MPicNews dl dd {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/icon_66.gif") no-repeat scroll 0 5px transparent;
+    float: left;
+    line-height: 20px;
+    padding: 0 0 0 12px;
+    width: 200px;
+}
+.mainList03 {
+    color: #2D2D2D;
+    width: 998px;
+}
+.mainList03 .tabBox {
+    padding: 0 18px 18px;
+}
+.readbook_pad {
+    padding-left: 8px;
+}
+.readbookImgBox {
+    width: 100px;
+}
+.readbookImgBox .img {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/readbook_img01.gif") no-repeat scroll 0 0 transparent;
+    height: 122px;
+    padding: 5px;
+    width: 85px;
+}
+.readbookImgBox span {
+    display: block;
+    line-height: 20px;
+    margin-top: 2px;
+    text-align: left;
+    width: 100px;
+}
+.readbookImgBox span a {
+    line-height: 20px;
+}
+.readbookTopic {
+    background: none repeat scroll 0 0 #FFFFFF;
+    width: 335px;
+}
+.readbookTopic .topicList {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/icon_04.gif") no-repeat scroll 0 0 transparent;
+    border: 1px solid #D9D9D9;
+    float: left;
+    height: 70px;
+    width: 333px;
+}
+.readbookTopic .topicList p {
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 22px;
+    padding: 20px 9px 0;
+    width: 151px;
+}
+.readbookTopic .topicList img {
+    float: left;
+    height: 70px;
+    width: 164px;
+}
+.mainList02 {
+    color: #2D2D2D;
+    width: 998px;
+}
+.mainList02 .tabBox {
+    padding: 0 18px 18px;
+}
+.mainList02 .tq_btn {
+    border: 1px solid #C2C2C2;
+    color: #666666;
+    height: 18px;
+    width: 86px;
+}
+.mainList02 .cx {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #C2C2C2;
+    color: #676767;
+    font-size: 12px;
+    height: 20px;
+    line-height: 18px;
+    margin: 0 0 0 8px;
+    text-align: center;
+    width: 35px;
+}
+.weatherBox {
+    background: none repeat scroll 0 0 #EBF2F8;
+    float: right;
+    height: 150px;
+    padding: 12px 20px 20px 15px;
+    width: 660px;
+}
+.weatherBox .w_text {
+    color: #004276;
+    font-family: "黑体";
+    font-size: 20px;
+}
+.weatherBox .w_text2 {
+    color: #004276;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+}
+.weatherBox .lh18 {
+    line-height: 19px;
+}
+.weatherBox .box01 {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CFDDEA;
+    float: left;
+    height: 140px;
+    padding: 2px;
+    width: 156px;
+}
+.weatherBox .box01 .boxbg {
+    background: none repeat scroll 0 0 #EBF2F8;
+    height: 132px;
+    padding: 4px 0;
+}
+.weatherBox .box01 .pad4 {
+    padding-left: 4px;
+}
+.pullLayer {
+    left: 172px;
+    right: 0;
+    top: 40px;
+    width: 71px;
+}
+.pullLayer2, .pullLayer3, .pullLayer4, .pullLayer5 {
+    left: 0;
+    right: 0;
+    top: 29px;
+    width: 76px;
+}
+.pullLayer, .pullLayer2, .pullLayer3, .pullLayer4, .pullLayer5 {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DFDFDF;
+    position: absolute;
+}
+.pullLayer li, .pullLayer2 li, .pullLayer3 li, .pullLayer4 li, .pullLayer5 li {
+    height: 20px;
+    line-height: 20px;
+}
+.pullLayer li a, .pullLayer2 li a, .pullLayer3 li a, .pullLayer4 li a, .pullLayer5 li a {
+    color: #000000;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 11px;
+    text-decoration: none;
+}
+.posbox {
+    position: relative;
+}
+.pullLayer6 {
+    left: 0;
+    right: 0;
+    top: 18px;
+    width: 64px;
+}
+.pullLayer6 {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DFDFDF;
+    position: absolute;
+}
+.pullLayer6 li {
+    height: 20px;
+    line-height: 20px;
+}
+.pullLayer6 li a {
+    color: #000000;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 11px;
+    text-decoration: none;
+}
+.label02 {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/icon_tag_bj.gif") repeat-x scroll center bottom transparent;
+    padding-left: 5px;
+    width: 252px;
+}
+.label02 ul {
+    float: left;
+}
+.label02 li {
+    border-color: #CCCCCC #CCCCCC #FFFFFF;
+    border-right: 1px solid #CCCCCC;
+    border-style: solid;
+    border-width: 2px 1px;
+    cursor: pointer;
+    float: left;
+    font-size: 14px;
+    height: 24px;
+    line-height: 24px;
+    margin-right: 2px;
+    text-align: center;
+    width: 116px;
+}
+.label02 li.current {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/icon_tag.gif") repeat-x scroll 0 2px transparent;
+    border: 0 none;
+    float: left;
+    font-size: 12px;
+    height: 20px;
+    padding-top: 4px;
+    text-align: center;
+    width: 126px;
+}
+.gzt {
+    padding: 15px 0 4px;
+    text-align: center;
+    width: 270px;
+}
+.title02 {
+    border-bottom: 3px solid #F0F0F0;
+    font-size: 14px;
+    line-height: 26px;
+    padding: 0 0 0 4px;
+    width: 129px;
+}
+.datalist {
+    color: #2B2B2B;
+    width: 133px;
+}
+.datalist th {
+    border-bottom: 1px solid #CDCDCD;
+    height: 37px;
+    line-height: 37px;
+}
+.datalist tr td {
+    height: 24px;
+    line-height: 24px;
+}
+.datalist tr td a {
+    line-height: 24px;
+}
+.more02 {
+    margin-top: 10px;
+}
+.more02 h4 {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/icon01_07.gif") no-repeat scroll 30px 15px transparent;
+    border-top: 1px solid #CCCCCC;
+    line-height: 18px;
+    padding-top: 7px;
+}
+.more02 h4 a {
+    color: #707070;
+}
+.endNav {
+    border: 1px solid #D9D9D9;
+    clear: both;
+    margin: 0 auto 10px;
+    width: 998px;
+}
+.endNav .endNList {
+    float: left;
+    width: 630px;
+}
+.endNav .endNList li {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/zxicon_26.gif") no-repeat scroll right center transparent;
+    float: left;
+    line-height: 27px;
+    padding: 0 4px 0 5px;
+}
+.endNav .endNList li a {
+    color: #2B2B2B;
+}
+.endNav .navFocus {
+    color: #BA2636;
+    float: left;
+    line-height: 18px;
+    margin: 0 5px 0 0;
+    padding: 5px 0 0;
+    width: 284px;
+}
+.endNav .navFocus a {
+    line-height: 18px;
+}
+.endNav .navV a, .endNav .navVIP a, .endNav .ifengPlay a, .endNav .tvPlay a, .endNav .navWap a {
+    color: #BA2636;
+}
+.endNav .navV {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/nav0416_14.gif") no-repeat scroll 1px 4px transparent;
+    float: left;
+    padding: 0 0 0 17px;
+    width: 37px;
+}
+.endNav .navVIP {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/nav0416_09.gif") no-repeat scroll 24px 3px transparent;
+    float: left;
+    width: 42px;
+}
+.endNav .ifengPlay {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/nav0416_11.gif") no-repeat scroll 36px 3px transparent;
+    float: left;
+    width: 63px;
+}
+.endNav .tvPlay {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/nav0416_17.gif") no-repeat scroll 0 3px transparent;
+    float: left;
+    padding: 0 0 0 15px;
+    width: 55px;
+}
+.endNav .navWap {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/nav0416_06.gif") no-repeat scroll 0 2px transparent;
+    float: left;
+    padding: 0 0 0 11px;
+    width: 30px;
+}
+.endNav .moreWeb {
+    float: left;
+    margin: 1px 0 0;
+    position: relative;
+    width: 14px;
+}
+.endNav .moreWeb .nextWeb {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E7E7E7;
+    height: 48px;
+    left: -146px;
+    position: absolute;
+    top: 0;
+    width: 160px;
+    z-index: 90;
+}
+.endNav .nextTop {
+    border-left: 1px solid #D9D9D9;
+    float: left;
+    height: 20px;
+    padding: 7px 0 0 3px;
+    width: 70px;
+}
+.linkText {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-top: 1px solid #D9D9D9;
+    clear: both;
+    margin: 15px auto 11px;
+    width: 1000px;
+}
+.linkText a {
+    background: url("http://img.ifeng.com/tres/TemplateRes/11320/11320/images/fashion_v4/bt.gif") no-repeat scroll right center transparent;
+    color: #413235;
+    line-height: 22px;
+    padding: 0 7px 0 0;
+}
+.endNav02 {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/icon02_04.gif") repeat-x scroll center top transparent;
+    clear: both;
+    margin: 0 auto;
+    padding: 17px 0 0;
+    text-align: center;
+    width: 1000px;
+}
+.endNav02 a {
+    color: #2B2B2B;
+    line-height: 18px;
+    padding: 0 5px;
+}
+.mainStop {
+    margin: 0 auto;
+    padding: 10px 0 0;
+    width: 950px;
+}
+.m_page * {
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    padding: 5px 0 0;
+    text-align: left;
+    width: 140px;
+}
+.m_page a#pageprev {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/list_icon02a.gif") no-repeat scroll right 3px transparent;
+    height: 15px;
+    overflow: hidden;
+    text-indent: 100px;
+    width: 61px;
+}
+.m_page a#pagenext {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/list_icon02.gif") no-repeat scroll left 3px transparent;
+    height: 15px;
+    overflow: hidden;
+    text-indent: 100px;
+    width: 61px;
+}
+.m_page a#pagecontent {
+    background-color: #000000;
+    float: left;
+    height: 15px;
+    margin: 0 5px;
+    text-indent: 1px;
+    width: 1px;
+}
+.m_page span#pageprev {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/list_icon01.gif") no-repeat scroll left 3px transparent;
+    height: 15px;
+    overflow: hidden;
+    text-indent: 100px;
+    width: 61px;
+}
+.m_page span#pagenext {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_taiwan/list_icon01a.gif") no-repeat scroll right 3px transparent;
+    height: 15px;
+    overflow: hidden;
+    text-indent: 100px;
+    width: 61px;
+}
+.m_page span#pagecontent {
+    background-color: #000000;
+    float: left;
+    height: 15px;
+    margin: 0 5px;
+    text-indent: 1px;
+    width: 1px;
+}
+.sysNews .sysNewsList h4.voidZxNews {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_v5/icon02_06.gif") no-repeat scroll right 3px transparent;
+    padding: 0 17px 0 0;
+}
+.sysNews .sysNewsList h4.photoZxNews {
+    background: url("http://img.ifeng.com/tres/TemplateRes/19520/19520/images/news_v5/icon02_08.gif") no-repeat scroll right 0 transparent;
+    padding: 0 15px 0 0;
+}
+.sysNW {
+    float: left;
+    padding-left: 1px;
+    width: 393px;
+}
+.sysNews .sysNewsList01 .Function {
+    float: left;
+    width: 250px;
+}
+.gg298 {
+    float: left;
+    margin: 0 0 10px;
+    padding: 7px;
+    width: 299px;
+}
+.gg298 img {
+    width: 298px;
+}
+.gg298 p {
+    line-height: 18px;
+    padding: 4px 0 0;
+}
+.scrollList_83 {
+    height: 124px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 395px;
+}
+.scrollList_83 .photolist {
+    overflow: visible;
+    position: relative;
+    width: 10000px;
+}
+.scrollList_83 .photolist ul {
+    float: left;
+    margin: 0 0 0 -3px;
+    padding: 0;
+}
+.scrollList_83 .photolist li {
+    display: inline;
+    float: left;
+    height: 123px;
+    margin: 0 0 0 2px;
+    width: 134px;
+}
+.scrollList_100 {
+    height: 132px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 213px;
+}
+.scrollList_100 .photolist {
+    height: 10000px;
+    overflow: visible;
+    position: relative;
+}
+.scrollList_100 .photolist ul {
+    float: left;
+    margin: -5px 0 0;
+    padding: 0;
+}
+.scrollList_100 .photolist li {
+    border-top: 1px solid #D9D9D9;
+    float: left;
+    height: 32px;
+    margin: 0;
+    padding: 4px 0 13px;
+    width: 213px;
+}
+.scrollList_100 .photolist li a, .scrollList_100 .photolist li a:hover {
+    color: #004276;
+    line-height: 18px;
+}
+.scrollList_100 .photolist li span {
+    color: #666666;
+}
+.picNews05 h4 span {
+    background: url("http://res.news.ifeng.com/icon_more.gif") no-repeat scroll right 10px transparent;
+    float: right;
+    font-size: 12px;
+    margin: 0 12px 0 0;
+    padding: 3px 0 0;
+    width: 35px;
+}
+.picNews05 h4 span a {
+    color: #666666;
+}
+.addBox {
+    float: left;
+    padding: 0 0 0 12px;
+    width: 290px;
+}
+.addBox .nt {
+    color: #666666;
+    padding: 10px 0 13px;
+}
+.addBox .pic {
+    float: left;
+    width: 290px;
+}
+.addBox .pic img {
+    border: 1px solid #D7DADD;
+    float: left;
+    height: 72px;
+    width: 72px;
+}
+.addBox .pic .t {
+    float: right;
+    width: 208px;
+}
+.addBox .pic .t h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin: -2px 0 0;
+}
+.addBox2 {
+    float: left;
+    padding: 14px 0 0 12px;
+    width: 290px;
+}
+.addBox2 .pic {
+    float: left;
+    width: 290px;
+}
+.addBox2 .pic img {
+    border: 1px solid #D7DADD;
+    float: left;
+    height: 137px;
+    width: 98px;
+}
+.addBox2 .pic .t {
+    float: right;
+    width: 180px;
+}
+.addBox2 .pic .t h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin: -2px 0 0;
+}
+.addBox ul, .addBox2 ul {
+    float: left;
+    padding: 10px 0 0;
+    width: 285px;
+}
+.addBox ul li, .addBox2 ul li {
+    background: url("http://res.news.ifeng.com/icon_dot.gif") no-repeat scroll 8px 9px transparent;
+    height: 20px;
+    overflow: hidden;
+    padding: 0 0 0 17px;
+    width: 268px;
+}
+.lh20, .lh20 a {
+    line-height: 20px;
+}
+.u_blue, .u_blue a {
+    color: #004276;
+}
+.u_gray, .u_gray a {
+    color: #666666;
+}
+.u_red, .u_red a {
+    color: #BA2636 !important;
+}

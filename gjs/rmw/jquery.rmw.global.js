@@ -113,6 +113,7 @@ var _rmw_encoding_ = {
 	 */
 	
 	// Encodes data to Hex(base16) format
+	// 就是ascii编码的组合
 	hexEncode : function(data) {
 		var b16_digits = '0123456789abcdef';
 		var b16_map = new Array();

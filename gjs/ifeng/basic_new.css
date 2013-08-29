@@ -1,0 +1,56 @@
+/*清除文档类型声明中的默认属性*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,p,blockquote,th,td{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;} 
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+ol,ul {list-style:none;}
+caption,th {text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+q:before,q:after{content:'';}
+
+/*字体定义*/
+body {font-size:12px; font-family: simsun,arial,helvetica,clean,sans-serif; background:#fff;}
+table {font-size:inherit;font:100%;} 
+
+/*重新定义*/
+h1 {font-size:14px;}
+h2 {font-size:14px;font-weight:normal;}
+h3 {font-size:12px;}
+h4 {font-size:12px;font-weight:normal;}
+
+strong {font-weight:bold;}
+a {text-decoration:none;} 
+a:hover {text-decoration:underline;}
+
+/*通用定义*/
+.clear {clear:both;} 
+.clearfix:after { content: "."; display: block; height: 0;  clear: both; visibility: hidden;}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+/* End hide from IE-mac */
+*+html .clearfix {min-height: 1%;}
+
+.bold {font-weight:bold;}
+.f14   {font-size:14px;} 
+.h20 { line-height:20px;}
+.error {color:red;}
+
+/*颜色预定义 可以随时增加*/
+.black {color:#000;}
+.white {color:#fff;}
+.red {color:#e10007;}
+.grey {color:#454545;}
+.orange {color:#ff7200;}
+.blue {color:#3a8ecf;}
+.navy {color:#183b7d;}
+
+.cRed,.cRed a:link,.cRed a:visited,.cRed a:hover,.cRed a:active{color:#ba2636;}
+.cGray,.cGray a:link,.cGray a:visited,.cGray a:hover,.cGray a:active{color:#666;}
+.cDGray,.cDGray a:link,.cDGray a:visited,.cDGray a:hover,.cDGray a:active{color:#2b2b2b;}
+.cNavy,.cNavy a:link,.cNavy a:visited,.cNavy a:hover,.cNavy a:active{color:#004276;}
+
+/*要闻区特殊定义m简写自mark*/
+.m_red,a.m_red:link,a.m_red:visited,a.m_red:hover{color:#ba2636;}/*标红*/
+.m_black,a.m_black:link,a.m_black:visited,a.m_black:hover{color:#000;}/*标黑*/
+.m_bold{font-weight:bold;}/*标粗*/
+.m_video{background:url(http://res.img.ifeng.com/8cbe73a7378dafdb/2011/0401/i_v.gif) no-repeat 0 1px; padding-left:21px;}/*加视频小标*/
