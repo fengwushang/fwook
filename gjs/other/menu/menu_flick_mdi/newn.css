@@ -1,0 +1,34 @@
+
+/*--------------------------------------------------------------------------------*/
+ul.dropdown             { width: 1000px; height: 36px; line-height:36px; position:relative; z-index:597; float:left; background: #666 right top repeat-x;}
+
+ul.dropdown li          { width: 120px; height:30px; text-align:center; float:left; line-height:30; vertical-align:middle; zoom:1;}/*top com*/
+ul.dropdown a:hover     { background: #3a93d2; color: #fff;}
+
+ul.dropdown li a.dir span      { float: left; display: block; width:120px; height: 30px; line-height: 30px; color:#fff; font-size:15px; font-weight: bold; text-align: center; background: #666 no-repeat right top;}/*top*/
+
+ul.dropdown li a.dir:hover span{ background: #666 no-repeat right top; }/*top*/
+
+ul.dropdown li:hover >*.dir    {position:relative; z-index:600; display: block; float:left; height: 20px; line-height: 20px; font-size: 13px; font-weight: bold; cursor: pointer; background: #666; }/* sec.. */
+
+ul.dropdown li a.dir           { display: block; height: 20px; line-height: 20px; text-decoration: none; font-size:13px; cursor: pointer; text-align:left;  text-decoration:none;}/* sec.. */
+ul.dropdown>li>a.dir           { display: block; height: 30px; line-height: 30px; color: #fff; text-decoration: none; font-size: 13px; cursor: pointer; background: #666; text-align:center; }
+
+ul.dropdown li a.dir:hover     { background: #3a93d2; color: #fff;  }
+/**/
+ul.dropdown>li>a.dir:hover     { background: no-repeat; color: #666;}
+
+/* -- level mark -- */
+ul.dropdown ul      { width:120px; padding:4px; position:absolute; top:100%; left:0; z-index:598; border: 1px solid #3a93d2; white-space: nowrap; visibility:hidden; background:#fff;}
+ul.dropdown li:hover >ul{ visibility:visible;}
+ul.dropdown ul li   { float:none; text-align: left; height:20px; line-height: 20px;}
+ul.dropdown ul a    { padding:1px 4px 1px 4px; margin: 1px; display: block; font-size: 13px; width: 110px; height: 20px; line-height: 20px;  color: #000; }
+
+ul.dropdown ul li:hover >*.dir  {position:static; z-index:0; float:none; margin:1px; border:none; padding:1px 4px 1px 4px; background:#3a93d2; font-weight: normal; color:#fff;}
+
+
+ul.dropdown li.hover *.open                 {position:relative; z-index:600; float:left; zoom:none; color:#fff;}
+ul.dropdown ul li.hover *.open              {position:static; z-index:0; float:none; padding:1px 4px 1px 4px; margin:1px; border:none; color: #fff; background:#3a93d2; font-weight: normal;}
+ul.dropdown li.hover,ul.dropdown li:hover   {position:relative; z-index:599; cursor:default;}
+/**/
+ul.dropdown ul ul       { top:0px; left:95%;}
