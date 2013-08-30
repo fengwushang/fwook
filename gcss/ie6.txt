@@ -32,3 +32,9 @@ $(".entry").each(function(){ if($(this)[0].scrollHeight>500) $(this).css({"heigh
 2、设置li {vertical-align：middle} （推荐这种方法，简单方便）
 3、设置li {font-size:0} li span{font-size:12px}。
 4、设置li{float:left;width:100%}
+
+/*--flash遮挡弹出层，加vmode="Opaque"--*/
+<embed width="1000" height="90" wmode="Opaque" quality="high" src="http://localhost:3801/css/imgs/ad_top1.swf" type="application/x-shockwave-flash">
+/*-------------------------------------------------------------------------------*/
+ie:innerText或fx:textConten
+IE6有个奇怪的问题，如果 span里有空格的话，它将自动变成一个空的span。要用&nbsp;代替空格。
