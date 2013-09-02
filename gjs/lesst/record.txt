@@ -1,0 +1,7 @@
+npm install -g less
+lessc styles.less > styles.css
+use:
+less.js-windows-master compile
+config web:
+file-watcher: program:path\lessc.cmd; arguments: -x --no-color $FileName$
+output paths: $FileParentDir$\css\...
