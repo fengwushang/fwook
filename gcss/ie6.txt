@@ -38,3 +38,7 @@ $(".entry").each(function(){ if($(this)[0].scrollHeight>500) $(this).css({"heigh
 /*-------------------------------------------------------------------------------*/
 ie:innerText或fx:textConten
 IE6有个奇怪的问题，如果 span里有空格的话，它将自动变成一个空的span。要用&nbsp;代替空格。
+
+td内左右对齐，要用宋体并包裹在p标签内。
+
+jq.html方法在ie6下清空内容要用“”；
