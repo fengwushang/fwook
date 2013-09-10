@@ -42,3 +42,38 @@ IE6有个奇怪的问题，如果 span里有空格的话，它将自动变成一个空的span。要用&nbsp;代
 td内左右对齐，要用宋体并包裹在p标签内。
 
 jq.html方法在ie6下清空内容要用“”；
+/*-----------------------------------------------------------------------------*/
+如果你的事件处理不依赖任何特定的事件属性，你可以调用trigger(eventType)。但如果你的事件处理依赖于特殊的事件属性，你就需要使用$.Event创建一个事件对象，并设置必要的属性。对于复杂的行为触发相关事件是非常重要的，例如dragging，他由mousedown、mousemove和mouseup组成。即使是看起来很简单的事件也有可能是有很多事件组成的，例如click是由mousedown、mouseup和click组成的。你是否需要触发所有三个事件，依赖于你的测试代码，只触发click大多数情况是满足要求的。
+event = $.event( "keydown" );
+event.keyCode = 9;
+$doc.trigger( event );
+如果那些仍然不够，你就需要一个框架来帮你模拟用户事件了：
+
+syn "是一个合成的事件类库，用来处理大多数的 typing, clicking, moving 和 dragging，能准确的模拟用户的实际操作"。基于QUnit的FuncUnit使用了syn，用来对web站点做功能测试。
+JSRobot - "一个web应用的测试工具，可以产生真正的敲击键盘，而不是简单的模拟JavaScript事件触发。允许通过敲击触发浏览器实际的事件，而这对于别的框架来说是办不到的事情"。
+DOH Robot "提供一个 API，允许测试者使用真实的、跨平台的、系统级的输入事件自动运行 UI 测试 "。他为你提供了接近真实浏览器的事件，但是要使用到 Java applets来实现。
+/*----------------------------------------------------------------------------*/
+相当于三元运算符，返回boolean值。
+var ret = !!document.getElementById
+等价于：var ret = document.getElementById ? true : false;
+当值是非空字符串和非零数字返回true，当值是空字符串、0或者null返回false。
+/*----------------------------------------------------------------------------*/
+文本两端对齐，文字部分需要添加&#12288;和&nbsp;来调整一下。
+.test1 {
+    text-align:justify;
+    text-justify:distribute-all-lines;/*ie6-8*/
+    text-align-last:justify;/* ie9*/
+    -moz-text-align-last:justify;/*ff*/
+    -webkit-text-align-last:justify;/*chrome 20+*/
+}
+/* chrome*/ 
+@media screen and (-webkit-min-device-pixel-ratio:0){
+    .test1:after{
+        content:".";
+        display: inline-block;
+        width:100%;
+        overflow:hidden;
+        height:0;
+    }
+}
+/*----------------------------------------------------------------------------*/
