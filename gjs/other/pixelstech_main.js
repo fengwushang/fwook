@@ -1,4 +1,6 @@
 ﻿/*************************************************************************************************
+ *  内容分析加注释：2013-09-11 开始通用自定义
+ http://www.cnblogs.com/terrylin/archive/2013/04/04/2999465.html
  *  @Author      : Pi Ke	
  *  @Date        : 2011-09-03
  *  @Description : Main JS File to define all the actions performed by the whole system
