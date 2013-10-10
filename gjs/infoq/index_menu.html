@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />
+        <title></title>
+        <link  rel="stylesheet" />
+        <style type="text/css">
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+    margin:0;
+    padding:0;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+fieldset,img {
+    border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+    font-style:normal;
+    font-weight:normal;
+}
+ul {
+    list-style:none;
+}
+caption,th {
+    text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-weight:normal;
+}
+q:before,q:after {
+    content:'';
+}
+abbr,acronym { border:0; }
+
+/*#################     RESET CSS      ##################*/
+
+a { outline:none !important; text-decoration:none; color:#000; }
+
+html * { margin:0; border:0; padding:0;}
+body { margin:0; padding:0 0 0 0; font-family: "Arial", Helvetica, sans-serif; width:100%; font-size:14px; /*background:#ffffff url(i/bg.jpg) repeat-x left top;*/ background:#f7f8fa; color:#000;}
+
+.clear { height:0px; clear:both; font-size:0px; display: block; }
+.clear1 { height:10px; clear:both; font-size:0px; display: block; }
+.clear2 { height:20px; clear:both; font-size:0px; display: block; }
+
+/* ######################################## */
+
+blocknote { float:left; text-align:left; padding:10px 10px 10px 55px; margin:10px 0; clear:both; display:block; width:89%; border:1px solid #e8e8e8; background:#f4f4f4 url(i/gg.jpg) no-repeat left top;}
+blocknote p { font-size:12px; color:#666666; line-height:150%; }
+
+h1{ float:left; text-align:left; padding:0px; margin:0 0 10px 0; display:block; clear:both; width:100%; font-size:22px; color:#222222; line-height:120%;  }
+h2{ float:left; text-align:left; padding:0px; margin:0 0 10px 0; display:block; clear:both; width:100%; font-size:20px; color:#222222; line-height:120%;  }
+h3{ float:left; text-align:left; padding:0px; margin:0 0 10px 0; display:block; clear:both; width:100%; font-size:18px; color:#222222; line-height:120%;  }
+h4, h5{ float:left; text-align:left; padding:0px; margin:0 0 10px 0; display:block; clear:both; width:100%; font-size:17px; color:#222222; line-height:120%;  }
+
+        ul.menu { float:left; text-align:left; width:660px; height:80px; display:block; list-style:none; padding:0; margin:20px 0 0 0;  z-index:998;}
+        ul.menu li { float:left; padding:0px; margin:0px -1px 0 0; display:inline; text-align:center; list-style:none; position:relative; z-index:998;}
+        ul.menu li.last { margin-right:0px;}
+        ul.menu li a.main { display:block; vertical-align:middle; width:110px; height:69px; text-align:left; color:#666666; font-size:14px; font-weight:normal; line-height:130%; padding:10px 10px 0 10px; }
+        /*ul.menu li a.main > span { padding-right:7px; padding-left:7px; text-align: left; }*/
+        ul.menu li.selected {background:url(menu_a.jpg) no-repeat center center;}
+        ul.menu li a.main.active {background:url(menu_a_active.jpg) no-repeat center center; color:#000 !important;}
+        ul.menu li .top_submenu { position: absolute; left:-999em; top:79px; width:660px; display:block; background:#fff; padding:0 20px 10px 20px; border-bottom:2px solid #3c9a48; border-top: 8px solid #ebf0f3; z-index:9999 !important; box-shadow: 0px 6px 10px rgba(0, 0, 0, 1); height:335px; overflow:hidden; }
+        ul.menu li.rightSide .top_submenu {left:-999em; top:79px;}
+        ul.menu li .top_submenu ul.top_submenu_links { float:left; text-align:left; padding:0px 0 0 0; margin:0px; display:block; list-style:none; width:225px; }
+        ul.menu li .top_submenu ul.top_submenu_links.allLinks { height:auto !important; overflow:visible !important;}
+        ul.menu li .top_submenu ul.top_submenu_links li { float:left; text-align:left; padding: 2px 0; margin:2px 0; display:block; clear:both; width:90%; height:auto; font-size:14px; font-weight:bold; color:#141414; text-decoration:none; }
+        ul.menu li .top_submenu ul.top_submenu_links li:hover { background:none !important;}
+        ul.menu li .top_submenu ul.top_submenu_links li a { display: block; font-size:14px; font-weight:bold; color:#141414; text-decoration:none; }
+        ul.menu li .top_submenu ul.top_submenu_links li a.featured { color:#1D5EA5; }
+        ul.menu li .top_submenu ul.top_submenu_links li a.more { margin-top:15px; color:#3d9b48; font-size:14px; font-weight:bold;}
+        ul.menu li .top_submenu ul.top_submenu_links li a:hover { color:#3d9b48;}
+        ul.menu li:hover.rightSide .top_submenu { left:-594px; top:79px;}
+        ul.menu li .top_submenu .menu_article { background:url(i/submenu_bg.jpg) no-repeat left top; float:right; text-align:left; width:415px; padding:20px 0 0 20px; height:315px; display:block; overflow:hidden; }
+        ul.menu li .top_submenu .menu_article h2 { color:#1d5ea5; font-size:20px; font-weight:bold; float:left; text-align:left; padding:0px; margin:5px 0 5px 0; clear:both; display:block; width:100%; }
+        ul.menu li .top_submenu .menu_article h3 { color:#000; font-size:17px; font-weight:normal; float:left; text-align:left; padding:0px; margin:2px 0 2px 0; clear:both; display:block; width:100%; line-height:130%;  }
+        ul.menu li .top_submenu .menu_article p { font-size:14px;  color:#3a3a3a; line-height:150%; padding:0px; margin:2px 0; width:100%; clear:both;}
+        ul.menu li .top_submenu .menu_article p img { float:left; text-align:left; margin:5px 10px 10px 0; max-width:100px; max-height:100px;}
+        </style>
+        <script src="jq/jquery-1.7.2.min.js"></script>
+        <script type="text/javascript">
+/*现在是7版了
+* hoverIntent is similar to jQuery's built-in "hover" function except that
+* instead of firing the onMouseOver event immediately, hoverIntent checks
+* to see if the user's mouse has slowed down (beneath the sensitivity
+* threshold) before firing the onMouseOver event.
+* 
+* hoverIntent r6 // 2011.02.26 // jQuery 1.5.1+
+* <http://cherne.net/brian/resources/jquery.hoverIntent.html>
+* 
+* hoverIntent is currently available for use in all personal or commercial 
+* projects under both MIT and GPL licenses. This means that you can choose 
+* the license that best suits your project, and use it accordingly.
+* 
+* // basic usage (just like .hover) receives onMouseOver and onMouseOut functions
+* $("ul li").hoverIntent( showNav , hideNav );
+* 
+* // advanced usage receives configuration object only
+* $("ul li").hoverIntent({
+*   sensitivity: 7, // number = sensitivity threshold (must be 1 or higher)
+*   interval: 100,   // number = milliseconds of polling interval
+*   over: showNav,  // function = onMouseOver callback (required)
+*   timeout: 0,   // number = milliseconds delay before onMouseOut function call
+*   out: hideNav    // function = onMouseOut callback (required)
+* });
+* 
+* @param  f  onMouseOver function || An object with configuration options
+* @param  g  onMouseOut function  || Nothing (use configuration options object)
+* @author    Brian Cherne brian(at)cherne(dot)net
+*/
+(function($) {
+    $.fn.hoverIntent = function(f,g) {
+        // default configuration options
+        var cfg = {
+            sensitivity: 7,
+            interval: 100,
+            timeout: 0
+        };
+        // override configuration options with user supplied object
+        cfg = $.extend(cfg, g ? { over: f, out: g } : f );
+
+        // instantiate variables
+        // cX, cY = current X and Y position of mouse, updated by mousemove event
+        // pX, pY = previous X and Y position of mouse, set by mouseover and polling interval
+        var cX, cY, pX, pY;
+
+        // A private function for getting mouse position
+        var track = function(ev) {
+            cX = ev.pageX;
+            cY = ev.pageY;
+        };
+
+        // A private function for comparing current and previous mouse position
+        var compare = function(ev,ob) {
+            ob.hoverIntent_t = clearTimeout(ob.hoverIntent_t);
+            // compare mouse positions to see if they've crossed the threshold
+            if ( ( Math.abs(pX-cX) + Math.abs(pY-cY) ) < cfg.sensitivity ) {
+                $(ob).unbind("mousemove",track);
+                // set hoverIntent state to true (so mouseOut can be called)
+                ob.hoverIntent_s = 1;
+                return cfg.over.apply(ob,[ev]);
+            } else {
+                // set previous coordinates for next time
+                pX = cX; pY = cY;
+                // use self-calling timeout, guarantees intervals are spaced out properly (avoids JavaScript timer bugs)
+                ob.hoverIntent_t = setTimeout( function(){compare(ev, ob);} , cfg.interval );
+            }
+        };
+
+        // A private function for delaying the mouseOut function
+        var delay = function(ev,ob) {
+            ob.hoverIntent_t = clearTimeout(ob.hoverIntent_t);
+            ob.hoverIntent_s = 0;
+            return cfg.out.apply(ob,[ev]);
+        };
+
+        // A private function for handling mouse 'hovering'
+        var handleHover = function(e) {
+            // copy objects to be passed into t (required for event object to be passed in IE)
+            var ev = jQuery.extend({},e);
+            var ob = this;
+
+            // cancel hoverIntent timer if it exists
+            if (ob.hoverIntent_t) { ob.hoverIntent_t = clearTimeout(ob.hoverIntent_t); }
+
+            // if e.type == "mouseenter"
+            if (e.type == "mouseenter") {
+                // set "previous" X and Y position based on initial entry point
+                pX = ev.pageX; pY = ev.pageY;
+                // update "current" X and Y position based on mousemove
+                $(ob).bind("mousemove",track);
+                // start polling interval (self-calling timeout) to compare mouse coordinates over time
+                if (ob.hoverIntent_s != 1) { ob.hoverIntent_t = setTimeout( function(){compare(ev,ob);} , cfg.interval );}
+
+            // else e.type == "mouseleave"
+            } else {
+                // unbind expensive mousemove event
+                $(ob).unbind("mousemove",track);
+                // if hoverIntent state is true, then call the mouseOut function after the specified delay
+                if (ob.hoverIntent_s == 1) { ob.hoverIntent_t = setTimeout( function(){delay(ev,ob);} , cfg.timeout );}
+            }
+        };
+
+        // bind the function to the two event listeners
+        return this.bind('mouseenter',handleHover).bind('mouseleave',handleHover);
+    };
+})(jQuery);
+
+        function createOverFunction(i) {
+            var pixels = i * 129;
+            return function() {
+                $('#personas_' + i).addClass('selected');
+                $('ul.menu > li .top_submenu.c' + i).css('left','-' + pixels + 'px');
+            }
+        };
+        function createOutFunction(i) {
+            return function() {
+                $('ul.menu > li .top_submenu.c' + i).css('left','-999em');
+                $('#personas_' + i).removeClass('selected');
+            }
+        }
+        $(function() {
+            for (var i = 0; i < 5; i++) {
+                $('ul.menu > li').has('.top_submenu.c' + i).hoverIntent({
+                    sensitivity: 15,
+                    interval: 150,
+                    timeout:200,
+                    over: createOverFunction(i),
+                    out: createOutFunction(i)
+                });
+            }
+        }); 
+        </script>
+        
+    </head>
+    <body>
+        <ul class="menu">
+            <li id="personas_0" class="">
+                <a   class="main"><span>语言 &amp; 开发</span></a>
+                <div class="top_submenu c0" style="left: -999em;">
+                    <div class="scroll-pane" style="overflow: hidden; padding: 0px; width: 225px;">
+                        
+                        <div class="jspContainer" style="width: 225px; height: 325px;"><div class="jspPane" style="padding: 0px; top: 0px; width: 225px;"><ul class="top_submenu_links">
+                            <li><a  >Java</a></li>
+                            <li><a  >.Net</a></li>
+                            <li><a  >云计算</a></li>
+                            <li><a  >移动</a></li>
+                            <li><a  >HTML 5</a></li>
+                            <li><a  >JavaScript</a></li>
+                            <li><a  >Ruby</a></li>
+                            <li><a  >DSLs</a></li>
+                            <li><a  >Python</a></li>
+                            <li><a  >PHP</a></li>
+                            <li><a  >PaaS</a></li>
+                        </ul></div></div></div>
+                        
+                        <div class="menu_article">
+                            <h2>特别专题<span id="developmentHDLabel"></span></h2>
+                            <h3 id="developmentHDTitle"></h3>
+                            <div class="clear"></div>
+                            <p>
+                            <img border="0" alt="" src="" id="developmentHDImg">
+                            <span id="developmentHDSummary"></span>
+                            </p>
+                            <div class="clear"></div>
+                            <div class="alignCenter">
+                                <a  class="view_all_categ">
+                                <span>浏览所有<b id="developmentHDLabel2">语言 &amp; 开发</b></span>
+                                </a>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                        
+                        <div class="clear"></div>
+                    </div>
+                </li>
+                
+                <li id="personas_1">
+                    <a   class="main"><span>架构 &amp; 设计</span></a>
+                    <div class="top_submenu c1">
+                        <div class="scroll-pane" style="overflow: hidden; padding: 0px; width: 225px;">
+                            
+                            <div class="jspContainer" style="width: 225px; height: 325px;"><div class="jspPane" style="padding: 0px; top: 0px; width: 225px;"><ul class="top_submenu_links">
+                                <li><a  >建模</a></li>
+                                <li><a  >性能和可伸缩性</a></li>
+                                <li><a  >领域驱动设计</a></li>
+                                <li><a  >AOP</a></li>
+                                <li><a  >设计模式</a></li>
+                                <li><a  >安全</a></li>
+                                <li><a  >云计算</a></li>
+                                <li><a  >SOA</a></li>
+                            </ul></div></div></div>
+                            
+                            <div class="menu_article">
+                                <h2>特别专题<span id="architecture-designHDLabel"></span></h2>
+                                <h3 id="architecture-designHDTitle"></h3>
+                                <div class="clear"></div>
+                                <p>
+                                <img border="0" alt="" src="" id="architecture-designHDImg">
+                                <span id="architecture-designHDSummary"></span>
+                                </p>
+                                <div class="clear"></div>
+                                <div class="alignCenter">
+                                    <a  class="view_all_categ">
+                                    <span>浏览所有<b id="architecture-designHDLabel2">架构 &amp; 设计</b></span>
+                                    </a>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            
+                            <div class="clear"></div>
+                        </div>
+                    </li>
+                    <li id="personas_2">
+                        <a   class="main"><span>过程 &amp; 实践</span></a>
+                        <div class="top_submenu c2">
+                            <div class="scroll-pane" style="overflow: hidden; padding: 0px; width: 225px;">
+                                
+                                <div class="jspContainer" style="width: 225px; height: 325px;"><div class="jspPane" style="padding: 0px; top: 0px; width: 225px;"><ul class="top_submenu_links">
+                                    <li><a  >Agile</a></li>
+                                    <li><a  >领导能力</a></li>
+                                    <li><a  >团队协作</a></li>
+                                    <li><a  >敏捷技术</a></li>
+                                    <li><a  >方法论</a></li>
+                                    <li><a  >持续集成</a></li>
+                                    <li><a  >精益</a></li>
+                                    <li><a  >客户及需求</a></li>
+                                </ul></div></div></div>
+                                
+                                <div class="menu_article">
+                                    <h2>特别专题<span id="process-practicesHDLabel"></span></h2>
+                                    <h3 id="process-practicesHDTitle"></h3>
+                                    <div class="clear"></div>
+                                    <p>
+                                    <img border="0" alt="" src="" id="process-practicesHDImg">
+                                    <span id="process-practicesHDSummary"></span>
+                                    </p>
+                                    <div class="clear"></div>
+                                    <div class="alignCenter">
+                                        <a  class="view_all_categ">
+                                        <span>浏览所有<b id="process-practicesHDLabel2">过程 &amp; 实践</b></span>
+                                        </a>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                
+                                <div class="clear"></div>
+                            </div>
+                        </li>
+                        <li id="personas_3">
+                            <a   class="main"><span>运维 &amp; 基础架构</span></a>
+                            <div class="top_submenu c3">
+                                <div class="scroll-pane" style="overflow: hidden; padding: 0px; width: 225px;">
+                                    
+                                    <div class="jspContainer" style="width: 225px; height: 325px;"><div class="jspPane" style="padding: 0px; top: 0px; width: 225px;"><ul class="top_submenu_links">
+                                        <li><a  >性能和可伸缩性</a></li>
+                                        <li><a  >大数据</a></li>
+                                        <li><a  >DevOps</a></li>
+                                        <li><a  >云计算</a></li>
+                                        <li><a  >虚拟化</a></li>
+                                        <li><a  >NoSQL</a></li>
+                                        <li><a  >应用服务器</a></li>
+                                        <li><a  >运维</a></li>
+                                    </ul></div></div></div>
+                                    
+                                    <div class="menu_article">
+                                        <h2>特别专题<span id="operations-infrastructureHDLabel"></span></h2>
+                                        <h3 id="operations-infrastructureHDTitle"></h3>
+                                        <div class="clear"></div>
+                                        <p>
+                                        <img border="0" alt="" src="" id="operations-infrastructureHDImg">
+                                        <span id="operations-infrastructureHDSummary"></span>
+                                        </p>
+                                        <div class="clear"></div>
+                                        <div class="alignCenter">
+                                            <a  class="view_all_categ">
+                                            <span>浏览所有<b id="operations-infrastructureHDLabel2">运维 &amp; 基础架构</b></span>
+                                            </a>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                    
+                                    <div class="clear"></div>
+                                </div>
+                            </li>
+                            <li class="last" id="personas_4">
+                                <a   class="main"><span>企业架构</span></a>
+                                <div class="top_submenu c4">
+                                    <div class="scroll-pane" style="overflow: hidden; padding: 0px; width: 225px;">
+                                        
+                                        <div class="jspContainer" style="width: 225px; height: 325px;"><div class="jspPane" style="padding: 0px; top: 0px; width: 225px;"><ul class="top_submenu_links">
+                                            <li><a  >企业架构</a></li>
+                                            <li><a  >业务流程建模</a></li>
+                                            <li><a  >业务/IT整合</a></li>
+                                            <li><a  >Integration (EAI)</a></li>
+                                            <li><a  >治理</a></li>
+                                            <li><a  >Web 2.0</a></li>
+                                            <li><a  >SOA</a></li>
+                                        </ul></div></div></div>
+                                        
+                                        <div class="menu_article">
+                                            <h2>特别专题<span id="enterprise-architectHDLabel"></span></h2>
+                                            <h3 id="enterprise-architectHDTitle"></h3>
+                                            <div class="clear"></div>
+                                            <p>
+                                            <img border="0" alt="" src="" id="enterprise-architectHDImg">
+                                            <span id="enterprise-architectHDSummary"></span>
+                                            </p>
+                                            <div class="clear"></div>
+                                            <div class="alignCenter">
+                                                <a  class="view_all_categ">
+                                                <span>浏览所有<b id="enterprise-architectHDLabel2">企业架构</b></span>
+                                                </a>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                        
+                                        <div class="clear"></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </body>
+                    </html>
